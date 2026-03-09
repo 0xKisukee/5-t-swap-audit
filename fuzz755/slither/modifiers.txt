@@ -1,0 +1,135 @@
+'forge clean' running (wd: /home/kisuke/cyfrin-tuto/5-t-swap-audit)
+'forge config --json' running
+'forge build --build-info --skip ./test/** ./script/** --force' running (wd: /home/kisuke/cyfrin-tuto/5-t-swap-audit)
+ERROR:ConvertToIR:Function not found name
+ERROR:ContractSolcParsing:Impossible to generate IR for PoolFactory.createPool (src/PoolFactory.sol#46-56):
+ 'NoneType' object has no attribute 'type'
+INFO:Printers:
+Contract IERC20
++--------------+-----------+
+| Function     | Modifiers |
++--------------+-----------+
+| totalSupply  | []        |
+| balanceOf    | []        |
+| transfer     | []        |
+| allowance    | []        |
+| approve      | []        |
+| transferFrom | []        |
+| name         | []        |
+| symbol       | []        |
+| decimals     | []        |
++--------------+-----------+
+INFO:Printers:
+Contract IERC721Errors
++----------+-----------+
+| Function | Modifiers |
++----------+-----------+
++----------+-----------+
+INFO:Printers:
+Contract IERC1155Errors
++----------+-----------+
+| Function | Modifiers |
++----------+-----------+
++----------+-----------+
+INFO:Printers:
+Contract IERC20Permit
++------------------+-----------+
+| Function         | Modifiers |
++------------------+-----------+
+| permit           | []        |
+| nonces           | []        |
+| DOMAIN_SEPARATOR | []        |
++------------------+-----------+
+INFO:Printers:
+Contract SafeERC20
++-------------------------+-----------+
+| Function                | Modifiers |
++-------------------------+-----------+
+| safeTransfer            | []        |
+| safeTransferFrom        | []        |
+| safeIncreaseAllowance   | []        |
+| safeDecreaseAllowance   | []        |
+| forceApprove            | []        |
+| _callOptionalReturn     | []        |
+| _callOptionalReturnBool | []        |
++-------------------------+-----------+
+INFO:Printers:
+Contract Address
++----------------------------+-----------+
+| Function                   | Modifiers |
++----------------------------+-----------+
+| sendValue                  | []        |
+| functionCall               | []        |
+| functionCallWithValue      | []        |
+| functionStaticCall         | []        |
+| functionDelegateCall       | []        |
+| verifyCallResultFromTarget | []        |
+| verifyCallResult           | []        |
+| _revert                    | []        |
++----------------------------+-----------+
+INFO:Printers:
+Contract PoolFactory
++--------------+-----------+
+| Function     | Modifiers |
++--------------+-----------+
+| constructor  | []        |
+| createPool   | []        |
+| getPool      | []        |
+| getToken     | []        |
+| getWethToken | []        |
++--------------+-----------+
+INFO:Printers:
+Contract TSwapPool
++-------------------------------------+--------------------------------------------+
+| Function                            | Modifiers                                  |
++-------------------------------------+--------------------------------------------+
+| constructor                         | []                                         |
+| name                                | []                                         |
+| symbol                              | []                                         |
+| decimals                            | []                                         |
+| totalSupply                         | []                                         |
+| balanceOf                           | []                                         |
+| transfer                            | []                                         |
+| allowance                           | []                                         |
+| approve                             | []                                         |
+| transferFrom                        | []                                         |
+| _transfer                           | []                                         |
+| _update                             | []                                         |
+| _mint                               | []                                         |
+| _burn                               | []                                         |
+| _approve                            | []                                         |
+| _approve                            | []                                         |
+| _spendAllowance                     | []                                         |
+| name                                | []                                         |
+| symbol                              | []                                         |
+| decimals                            | []                                         |
+| totalSupply                         | []                                         |
+| balanceOf                           | []                                         |
+| transfer                            | []                                         |
+| allowance                           | []                                         |
+| approve                             | []                                         |
+| transferFrom                        | []                                         |
+| _msgSender                          | []                                         |
+| _msgData                            | []                                         |
+| constructor                         | []                                         |
+| deposit                             | ['revertIfZero']                           |
+| _addLiquidityMintAndTransfer        | []                                         |
+| withdraw                            | ['revertIfDeadlinePassed', 'revertIfZero'] |
+| getOutputAmountBasedOnInput         | ['revertIfZero']                           |
+| getInputAmountBasedOnOutput         | ['revertIfZero']                           |
+| swapExactInput                      | ['revertIfDeadlinePassed', 'revertIfZero'] |
+| swapExactOutput                     | ['revertIfDeadlinePassed', 'revertIfZero'] |
+| sellPoolTokens                      | ['revertIfDeadlinePassed', 'revertIfZero'] |
+| _swap                               | []                                         |
+| _isUnknown                          | []                                         |
+| getPoolTokensToDepositBasedOnWeth   | []                                         |
+| totalLiquidityTokenSupply           | []                                         |
+| getPoolToken                        | []                                         |
+| getWeth                             | []                                         |
+| getMinimumWethDepositAmount         | []                                         |
+| getPriceOfOneWethInPoolTokens       | ['revertIfZero']                           |
+| getPriceOfOnePoolTokenInWeth        | ['revertIfZero']                           |
+| slitherConstructorVariables         | []                                         |
+| slitherConstructorConstantVariables | []                                         |
++-------------------------------------+--------------------------------------------+
+INFO:Slither:. analyzed (13 contracts)

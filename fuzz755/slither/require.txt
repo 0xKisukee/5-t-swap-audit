@@ -1,0 +1,135 @@
+'forge clean' running (wd: /home/kisuke/cyfrin-tuto/5-t-swap-audit)
+'forge config --json' running
+'forge build --build-info --skip ./test/** ./script/** --force' running (wd: /home/kisuke/cyfrin-tuto/5-t-swap-audit)
+ERROR:ConvertToIR:Function not found name
+ERROR:ContractSolcParsing:Impossible to generate IR for PoolFactory.createPool (src/PoolFactory.sol#46-56):
+ 'NoneType' object has no attribute 'type'
+INFO:Printers:
+Contract IERC20
++--------------+-------------------+
+| Function     | require or assert |
++--------------+-------------------+
+| totalSupply  |                   |
+| balanceOf    |                   |
+| transfer     |                   |
+| allowance    |                   |
+| approve      |                   |
+| transferFrom |                   |
+| name         |                   |
+| symbol       |                   |
+| decimals     |                   |
++--------------+-------------------+
+INFO:Printers:
+Contract IERC721Errors
++----------+-------------------+
+| Function | require or assert |
++----------+-------------------+
++----------+-------------------+
+INFO:Printers:
+Contract IERC1155Errors
++----------+-------------------+
+| Function | require or assert |
++----------+-------------------+
++----------+-------------------+
+INFO:Printers:
+Contract IERC20Permit
++------------------+-------------------+
+| Function         | require or assert |
++------------------+-------------------+
+| permit           |                   |
+| nonces           |                   |
+| DOMAIN_SEPARATOR |                   |
++------------------+-------------------+
+INFO:Printers:
+Contract SafeERC20
++-------------------------+-------------------+
+| Function                | require or assert |
++-------------------------+-------------------+
+| safeTransfer            |                   |
+| safeTransferFrom        |                   |
+| safeIncreaseAllowance   |                   |
+| safeDecreaseAllowance   |                   |
+| forceApprove            |                   |
+| _callOptionalReturn     |                   |
+| _callOptionalReturnBool |                   |
++-------------------------+-------------------+
+INFO:Printers:
+Contract Address
++----------------------------+-------------------+
+| Function                   | require or assert |
++----------------------------+-------------------+
+| sendValue                  |                   |
+| functionCall               |                   |
+| functionCallWithValue      |                   |
+| functionStaticCall         |                   |
+| functionDelegateCall       |                   |
+| verifyCallResultFromTarget |                   |
+| verifyCallResult           |                   |
+| _revert                    |                   |
++----------------------------+-------------------+
+INFO:Printers:
+Contract PoolFactory
++--------------+-------------------+
+| Function     | require or assert |
++--------------+-------------------+
+| constructor  |                   |
+| createPool   |                   |
+| getPool      |                   |
+| getToken     |                   |
+| getWethToken |                   |
++--------------+-------------------+
+INFO:Printers:
+Contract TSwapPool
++-------------------------------------+-------------------+
+| Function                            | require or assert |
++-------------------------------------+-------------------+
+| constructor                         |                   |
+| name                                |                   |
+| symbol                              |                   |
+| decimals                            |                   |
+| totalSupply                         |                   |
+| balanceOf                           |                   |
+| transfer                            |                   |
+| allowance                           |                   |
+| approve                             |                   |
+| transferFrom                        |                   |
+| _transfer                           |                   |
+| _update                             |                   |
+| _mint                               |                   |
+| _burn                               |                   |
+| _approve                            |                   |
+| _approve                            |                   |
+| _spendAllowance                     |                   |
+| name                                |                   |
+| symbol                              |                   |
+| decimals                            |                   |
+| totalSupply                         |                   |
+| balanceOf                           |                   |
+| transfer                            |                   |
+| allowance                           |                   |
+| approve                             |                   |
+| transferFrom                        |                   |
+| _msgSender                          |                   |
+| _msgData                            |                   |
+| constructor                         |                   |
+| deposit                             |                   |
+| _addLiquidityMintAndTransfer        |                   |
+| withdraw                            |                   |
+| getOutputAmountBasedOnInput         |                   |
+| getInputAmountBasedOnOutput         |                   |
+| swapExactInput                      |                   |
+| swapExactOutput                     |                   |
+| sellPoolTokens                      |                   |
+| _swap                               |                   |
+| _isUnknown                          |                   |
+| getPoolTokensToDepositBasedOnWeth   |                   |
+| totalLiquidityTokenSupply           |                   |
+| getPoolToken                        |                   |
+| getWeth                             |                   |
+| getMinimumWethDepositAmount         |                   |
+| getPriceOfOneWethInPoolTokens       |                   |
+| getPriceOfOnePoolTokenInWeth        |                   |
+| slitherConstructorVariables         |                   |
+| slitherConstructorConstantVariables |                   |
++-------------------------------------+-------------------+
+INFO:Slither:. analyzed (13 contracts)

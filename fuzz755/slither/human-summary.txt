@@ -1,0 +1,29 @@
+'forge clean' running (wd: /home/kisuke/cyfrin-tuto/5-t-swap-audit)
+'forge config --json' running
+'forge build --build-info --skip ./test/** ./script/** --force' running (wd: /home/kisuke/cyfrin-tuto/5-t-swap-audit)
+ERROR:ConvertToIR:Function not found name
+ERROR:ContractSolcParsing:Impossible to generate IR for PoolFactory.createPool (src/PoolFactory.sol#46-56):
+ 'NoneType' object has no attribute 'type'
+INFO:Printers:
+Compiled with Foundry
+Total number of contracts in source files: 2
+Number of contracts in dependencies: 11
+Source lines of code (SLOC) in source files: 350
+Source lines of code (SLOC) in dependencies: 312
+Number of  assembly lines: 0
+Number of optimization issues: 0
+Number of informational issues: 2
+Number of low issues: 2
+Number of medium issues: 1
+Number of high issues: 2
+ERCs: ERC20
+
++-------------+-------------+-------+--------------------+--------------+--------------------+
+| Name        | # functions | ERCS  | ERC20 info         | Complex code | Features           |
++-------------+-------------+-------+--------------------+--------------+--------------------+
+| PoolFactory | 5           |       |                    | No           |                    |
+| TSwapPool   | 48          | ERC20 | No Minting         | No           | Send ETH           |
+|             |             |       | Approve Race Cond. |              | Tokens interaction |
+|             |             |       |                    |              |                    |
++-------------+-------------+-------+--------------------+--------------+--------------------+
+INFO:Slither:. analyzed (13 contracts)

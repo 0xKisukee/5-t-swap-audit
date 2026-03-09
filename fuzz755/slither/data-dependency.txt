@@ -1,0 +1,5058 @@
+'forge clean' running (wd: /home/kisuke/cyfrin-tuto/5-t-swap-audit)
+'forge config --json' running
+'forge build --build-info --skip ./test/** ./script/** --force' running (wd: /home/kisuke/cyfrin-tuto/5-t-swap-audit)
+ERROR:ConvertToIR:Function not found name
+ERROR:ContractSolcParsing:Impossible to generate IR for PoolFactory.createPool (src/PoolFactory.sol#46-56):
+ 'NoneType' object has no attribute 'type'
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC1155Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC1155Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract ERC20
++--------------+------------------------------------------------+
+| Variable     | Dependencies                                   |
++--------------+------------------------------------------------+
+| _balances    | ['_balances', 'fromBalance', 'value']          |
+| _allowances  | ['_allowances']                                |
+| _totalSupply | ['_totalSupply', 'value']                      |
+| _name        | ['_name', 'liquidityTokenName', 'name_']       |
+| _symbol      | ['_symbol', 'liquidityTokenSymbol', 'symbol_'] |
++--------------+------------------------------------------------+
+
+Function constructor(string,string)
++--------------------+-------------------------------------+
+| Variable           | Dependencies                        |
++--------------------+-------------------------------------+
+| name_              | ['liquidityTokenName']              |
+| symbol_            | ['liquidityTokenSymbol']            |
+| ERC20._balances    | []                                  |
+| ERC20._allowances  | []                                  |
+| ERC20._totalSupply | []                                  |
+| ERC20._name        | ['liquidityTokenName', 'name_']     |
+| ERC20._symbol      | ['liquidityTokenSymbol', 'symbol_'] |
++--------------------+-------------------------------------+
+Function name()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | ['_name']    |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function symbol()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | ['_symbol']  |
++--------------------+--------------+
+Function decimals()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function totalSupply()
++--------------------+------------------+
+| Variable           | Dependencies     |
++--------------------+------------------+
+|                    | []               |
+| ERC20._balances    | []               |
+| ERC20._allowances  | []               |
+| ERC20._totalSupply | ['_totalSupply'] |
+| ERC20._name        | []               |
+| ERC20._symbol      | []               |
++--------------------+------------------+
+Function balanceOf(address)
++--------------------+---------------+
+| Variable           | Dependencies  |
++--------------------+---------------+
+| account            | []            |
+|                    | []            |
+| ERC20._balances    | ['_balances'] |
+| ERC20._allowances  | []            |
+| ERC20._totalSupply | []            |
+| ERC20._name        | []            |
+| ERC20._symbol      | []            |
++--------------------+---------------+
+Function transfer(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function allowance(address,address)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+|                    | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function approve(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| spender            | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function transferFrom(address,address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| from               | []             |
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| spender            | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function _transfer(address,address,uint256)
++--------------------+-------------------+
+| Variable           | Dependencies      |
++--------------------+-------------------+
+| from               | ['from', 'owner'] |
+| to                 | ['to']            |
+| value              | ['value']         |
+| ERC20._balances    | []                |
+| ERC20._allowances  | []                |
+| ERC20._totalSupply | []                |
+| ERC20._name        | []                |
+| ERC20._symbol      | []                |
++--------------------+-------------------+
+Function _update(address,address,uint256)
++--------------------+---------------------------------------+
+| Variable           | Dependencies                          |
++--------------------+---------------------------------------+
+| from               | ['account', 'from']                   |
+| to                 | ['account', 'to']                     |
+| value              | ['value']                             |
+| fromBalance        | ['_balances', 'value']                |
+| ERC20._balances    | ['_balances', 'fromBalance', 'value'] |
+| ERC20._allowances  | []                                    |
+| ERC20._totalSupply | ['_totalSupply', 'value']             |
+| ERC20._name        | []                                    |
+| ERC20._symbol      | []                                    |
++--------------------+---------------------------------------+
+Function _mint(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _burn(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['owner']    |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256,bool)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+| value              | ['value']       |
+| emitEvent          | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function _spendAllowance(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['from']     |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| currentAllowance   | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC1155Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract ERC20
++--------------+------------------------------------------------+
+| Variable     | Dependencies                                   |
++--------------+------------------------------------------------+
+| _balances    | ['_balances', 'fromBalance', 'value']          |
+| _allowances  | ['_allowances']                                |
+| _totalSupply | ['_totalSupply', 'value']                      |
+| _name        | ['_name', 'liquidityTokenName', 'name_']       |
+| _symbol      | ['_symbol', 'liquidityTokenSymbol', 'symbol_'] |
++--------------+------------------------------------------------+
+
+Function constructor(string,string)
++--------------------+-------------------------------------+
+| Variable           | Dependencies                        |
++--------------------+-------------------------------------+
+| name_              | ['liquidityTokenName']              |
+| symbol_            | ['liquidityTokenSymbol']            |
+| ERC20._balances    | []                                  |
+| ERC20._allowances  | []                                  |
+| ERC20._totalSupply | []                                  |
+| ERC20._name        | ['liquidityTokenName', 'name_']     |
+| ERC20._symbol      | ['liquidityTokenSymbol', 'symbol_'] |
++--------------------+-------------------------------------+
+Function name()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | ['_name']    |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function symbol()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | ['_symbol']  |
++--------------------+--------------+
+Function decimals()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function totalSupply()
++--------------------+------------------+
+| Variable           | Dependencies     |
++--------------------+------------------+
+|                    | []               |
+| ERC20._balances    | []               |
+| ERC20._allowances  | []               |
+| ERC20._totalSupply | ['_totalSupply'] |
+| ERC20._name        | []               |
+| ERC20._symbol      | []               |
++--------------------+------------------+
+Function balanceOf(address)
++--------------------+---------------+
+| Variable           | Dependencies  |
++--------------------+---------------+
+| account            | []            |
+|                    | []            |
+| ERC20._balances    | ['_balances'] |
+| ERC20._allowances  | []            |
+| ERC20._totalSupply | []            |
+| ERC20._name        | []            |
+| ERC20._symbol      | []            |
++--------------------+---------------+
+Function transfer(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function allowance(address,address)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+|                    | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function approve(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| spender            | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function transferFrom(address,address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| from               | []             |
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| spender            | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function _transfer(address,address,uint256)
++--------------------+-------------------+
+| Variable           | Dependencies      |
++--------------------+-------------------+
+| from               | ['from', 'owner'] |
+| to                 | ['to']            |
+| value              | ['value']         |
+| ERC20._balances    | []                |
+| ERC20._allowances  | []                |
+| ERC20._totalSupply | []                |
+| ERC20._name        | []                |
+| ERC20._symbol      | []                |
++--------------------+-------------------+
+Function _update(address,address,uint256)
++--------------------+---------------------------------------+
+| Variable           | Dependencies                          |
++--------------------+---------------------------------------+
+| from               | ['account', 'from']                   |
+| to                 | ['account', 'to']                     |
+| value              | ['value']                             |
+| fromBalance        | ['_balances', 'value']                |
+| ERC20._balances    | ['_balances', 'fromBalance', 'value'] |
+| ERC20._allowances  | []                                    |
+| ERC20._totalSupply | ['_totalSupply', 'value']             |
+| ERC20._name        | []                                    |
+| ERC20._symbol      | []                                    |
++--------------------+---------------------------------------+
+Function _mint(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _burn(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['owner']    |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256,bool)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+| value              | ['value']       |
+| emitEvent          | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function _spendAllowance(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['from']     |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| currentAllowance   | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC1155Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract ERC20
++--------------+------------------------------------------------+
+| Variable     | Dependencies                                   |
++--------------+------------------------------------------------+
+| _balances    | ['_balances', 'fromBalance', 'value']          |
+| _allowances  | ['_allowances']                                |
+| _totalSupply | ['_totalSupply', 'value']                      |
+| _name        | ['_name', 'liquidityTokenName', 'name_']       |
+| _symbol      | ['_symbol', 'liquidityTokenSymbol', 'symbol_'] |
++--------------+------------------------------------------------+
+
+Function constructor(string,string)
++--------------------+-------------------------------------+
+| Variable           | Dependencies                        |
++--------------------+-------------------------------------+
+| name_              | ['liquidityTokenName']              |
+| symbol_            | ['liquidityTokenSymbol']            |
+| ERC20._balances    | []                                  |
+| ERC20._allowances  | []                                  |
+| ERC20._totalSupply | []                                  |
+| ERC20._name        | ['liquidityTokenName', 'name_']     |
+| ERC20._symbol      | ['liquidityTokenSymbol', 'symbol_'] |
++--------------------+-------------------------------------+
+Function name()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | ['_name']    |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function symbol()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | ['_symbol']  |
++--------------------+--------------+
+Function decimals()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function totalSupply()
++--------------------+------------------+
+| Variable           | Dependencies     |
++--------------------+------------------+
+|                    | []               |
+| ERC20._balances    | []               |
+| ERC20._allowances  | []               |
+| ERC20._totalSupply | ['_totalSupply'] |
+| ERC20._name        | []               |
+| ERC20._symbol      | []               |
++--------------------+------------------+
+Function balanceOf(address)
++--------------------+---------------+
+| Variable           | Dependencies  |
++--------------------+---------------+
+| account            | []            |
+|                    | []            |
+| ERC20._balances    | ['_balances'] |
+| ERC20._allowances  | []            |
+| ERC20._totalSupply | []            |
+| ERC20._name        | []            |
+| ERC20._symbol      | []            |
++--------------------+---------------+
+Function transfer(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function allowance(address,address)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+|                    | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function approve(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| spender            | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function transferFrom(address,address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| from               | []             |
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| spender            | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function _transfer(address,address,uint256)
++--------------------+-------------------+
+| Variable           | Dependencies      |
++--------------------+-------------------+
+| from               | ['from', 'owner'] |
+| to                 | ['to']            |
+| value              | ['value']         |
+| ERC20._balances    | []                |
+| ERC20._allowances  | []                |
+| ERC20._totalSupply | []                |
+| ERC20._name        | []                |
+| ERC20._symbol      | []                |
++--------------------+-------------------+
+Function _update(address,address,uint256)
++--------------------+---------------------------------------+
+| Variable           | Dependencies                          |
++--------------------+---------------------------------------+
+| from               | ['account', 'from']                   |
+| to                 | ['account', 'to']                     |
+| value              | ['value']                             |
+| fromBalance        | ['_balances', 'value']                |
+| ERC20._balances    | ['_balances', 'fromBalance', 'value'] |
+| ERC20._allowances  | []                                    |
+| ERC20._totalSupply | ['_totalSupply', 'value']             |
+| ERC20._name        | []                                    |
+| ERC20._symbol      | []                                    |
++--------------------+---------------------------------------+
+Function _mint(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _burn(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['owner']    |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256,bool)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+| value              | ['value']       |
+| emitEvent          | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function _spendAllowance(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['from']     |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| currentAllowance   | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Contract IERC20Metadata
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC1155Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract ERC20
++--------------+------------------------------------------------+
+| Variable     | Dependencies                                   |
++--------------+------------------------------------------------+
+| _balances    | ['_balances', 'fromBalance', 'value']          |
+| _allowances  | ['_allowances']                                |
+| _totalSupply | ['_totalSupply', 'value']                      |
+| _name        | ['_name', 'liquidityTokenName', 'name_']       |
+| _symbol      | ['_symbol', 'liquidityTokenSymbol', 'symbol_'] |
++--------------+------------------------------------------------+
+
+Function constructor(string,string)
++--------------------+-------------------------------------+
+| Variable           | Dependencies                        |
++--------------------+-------------------------------------+
+| name_              | ['liquidityTokenName']              |
+| symbol_            | ['liquidityTokenSymbol']            |
+| ERC20._balances    | []                                  |
+| ERC20._allowances  | []                                  |
+| ERC20._totalSupply | []                                  |
+| ERC20._name        | ['liquidityTokenName', 'name_']     |
+| ERC20._symbol      | ['liquidityTokenSymbol', 'symbol_'] |
++--------------------+-------------------------------------+
+Function name()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | ['_name']    |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function symbol()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | ['_symbol']  |
++--------------------+--------------+
+Function decimals()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function totalSupply()
++--------------------+------------------+
+| Variable           | Dependencies     |
++--------------------+------------------+
+|                    | []               |
+| ERC20._balances    | []               |
+| ERC20._allowances  | []               |
+| ERC20._totalSupply | ['_totalSupply'] |
+| ERC20._name        | []               |
+| ERC20._symbol      | []               |
++--------------------+------------------+
+Function balanceOf(address)
++--------------------+---------------+
+| Variable           | Dependencies  |
++--------------------+---------------+
+| account            | []            |
+|                    | []            |
+| ERC20._balances    | ['_balances'] |
+| ERC20._allowances  | []            |
+| ERC20._totalSupply | []            |
+| ERC20._name        | []            |
+| ERC20._symbol      | []            |
++--------------------+---------------+
+Function transfer(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function allowance(address,address)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+|                    | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function approve(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| spender            | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function transferFrom(address,address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| from               | []             |
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| spender            | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function _transfer(address,address,uint256)
++--------------------+-------------------+
+| Variable           | Dependencies      |
++--------------------+-------------------+
+| from               | ['from', 'owner'] |
+| to                 | ['to']            |
+| value              | ['value']         |
+| ERC20._balances    | []                |
+| ERC20._allowances  | []                |
+| ERC20._totalSupply | []                |
+| ERC20._name        | []                |
+| ERC20._symbol      | []                |
++--------------------+-------------------+
+Function _update(address,address,uint256)
++--------------------+---------------------------------------+
+| Variable           | Dependencies                          |
++--------------------+---------------------------------------+
+| from               | ['account', 'from']                   |
+| to                 | ['account', 'to']                     |
+| value              | ['value']                             |
+| fromBalance        | ['_balances', 'value']                |
+| ERC20._balances    | ['_balances', 'fromBalance', 'value'] |
+| ERC20._allowances  | []                                    |
+| ERC20._totalSupply | ['_totalSupply', 'value']             |
+| ERC20._name        | []                                    |
+| ERC20._symbol      | []                                    |
++--------------------+---------------------------------------+
+Function _mint(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _burn(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['owner']    |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256,bool)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+| value              | ['value']       |
+| emitEvent          | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function _spendAllowance(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['from']     |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| currentAllowance   | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Contract IERC20Metadata
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Permit
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function permit(address,address,uint256,uint256,uint8,bytes32,bytes32)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+| value    | []           |
+| deadline | []           |
+| v        | []           |
+| r        | []           |
+| s        | []           |
++----------+--------------+
+Function nonces(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+|          | []           |
++----------+--------------+
+Function DOMAIN_SEPARATOR()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC1155Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract ERC20
++--------------+------------------------------------------------+
+| Variable     | Dependencies                                   |
++--------------+------------------------------------------------+
+| _balances    | ['_balances', 'fromBalance', 'value']          |
+| _allowances  | ['_allowances']                                |
+| _totalSupply | ['_totalSupply', 'value']                      |
+| _name        | ['_name', 'liquidityTokenName', 'name_']       |
+| _symbol      | ['_symbol', 'liquidityTokenSymbol', 'symbol_'] |
++--------------+------------------------------------------------+
+
+Function constructor(string,string)
++--------------------+-------------------------------------+
+| Variable           | Dependencies                        |
++--------------------+-------------------------------------+
+| name_              | ['liquidityTokenName']              |
+| symbol_            | ['liquidityTokenSymbol']            |
+| ERC20._balances    | []                                  |
+| ERC20._allowances  | []                                  |
+| ERC20._totalSupply | []                                  |
+| ERC20._name        | ['liquidityTokenName', 'name_']     |
+| ERC20._symbol      | ['liquidityTokenSymbol', 'symbol_'] |
++--------------------+-------------------------------------+
+Function name()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | ['_name']    |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function symbol()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | ['_symbol']  |
++--------------------+--------------+
+Function decimals()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function totalSupply()
++--------------------+------------------+
+| Variable           | Dependencies     |
++--------------------+------------------+
+|                    | []               |
+| ERC20._balances    | []               |
+| ERC20._allowances  | []               |
+| ERC20._totalSupply | ['_totalSupply'] |
+| ERC20._name        | []               |
+| ERC20._symbol      | []               |
++--------------------+------------------+
+Function balanceOf(address)
++--------------------+---------------+
+| Variable           | Dependencies  |
++--------------------+---------------+
+| account            | []            |
+|                    | []            |
+| ERC20._balances    | ['_balances'] |
+| ERC20._allowances  | []            |
+| ERC20._totalSupply | []            |
+| ERC20._name        | []            |
+| ERC20._symbol      | []            |
++--------------------+---------------+
+Function transfer(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function allowance(address,address)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+|                    | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function approve(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| spender            | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function transferFrom(address,address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| from               | []             |
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| spender            | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function _transfer(address,address,uint256)
++--------------------+-------------------+
+| Variable           | Dependencies      |
++--------------------+-------------------+
+| from               | ['from', 'owner'] |
+| to                 | ['to']            |
+| value              | ['value']         |
+| ERC20._balances    | []                |
+| ERC20._allowances  | []                |
+| ERC20._totalSupply | []                |
+| ERC20._name        | []                |
+| ERC20._symbol      | []                |
++--------------------+-------------------+
+Function _update(address,address,uint256)
++--------------------+---------------------------------------+
+| Variable           | Dependencies                          |
++--------------------+---------------------------------------+
+| from               | ['account', 'from']                   |
+| to                 | ['account', 'to']                     |
+| value              | ['value']                             |
+| fromBalance        | ['_balances', 'value']                |
+| ERC20._balances    | ['_balances', 'fromBalance', 'value'] |
+| ERC20._allowances  | []                                    |
+| ERC20._totalSupply | ['_totalSupply', 'value']             |
+| ERC20._name        | []                                    |
+| ERC20._symbol      | []                                    |
++--------------------+---------------------------------------+
+Function _mint(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _burn(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['owner']    |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256,bool)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+| value              | ['value']       |
+| emitEvent          | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function _spendAllowance(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['from']     |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| currentAllowance   | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Contract IERC20Metadata
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Permit
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function permit(address,address,uint256,uint256,uint8,bytes32,bytes32)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+| value    | []           |
+| deadline | []           |
+| v        | []           |
+| r        | []           |
+| s        | []           |
++----------+--------------+
+Function nonces(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+|          | []           |
++----------+--------------+
+Function DOMAIN_SEPARATOR()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract SafeERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function safeTransfer(IERC20,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| token    | ['token']    |
+| to       | []           |
+| value    | []           |
++----------+--------------+
+Function safeTransferFrom(IERC20,address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| token    | ['token']    |
+| from     | []           |
+| to       | []           |
+| value    | []           |
++----------+--------------+
+Function safeIncreaseAllowance(IERC20,address,uint256)
++--------------+------------------------------+
+| Variable     | Dependencies                 |
++--------------+------------------------------+
+| token        | []                           |
+| spender      | []                           |
+| value        | []                           |
+| oldAllowance | ['spender', 'this', 'token'] |
++--------------+------------------------------+
+Function safeDecreaseAllowance(IERC20,address,uint256)
++-------------------+------------------------------+
+| Variable          | Dependencies                 |
++-------------------+------------------------------+
+| token             | []                           |
+| spender           | []                           |
+| requestedDecrease | []                           |
+| currentAllowance  | ['spender', 'this', 'token'] |
++-------------------+------------------------------+
+Function forceApprove(IERC20,address,uint256)
++--------------+-------------------------------+
+| Variable     | Dependencies                  |
++--------------+-------------------------------+
+| token        | ['token']                     |
+| spender      | ['spender']                   |
+| value        | []                            |
+| approvalCall | ['spender', 'token', 'value'] |
++--------------+-------------------------------+
+Function _callOptionalReturn(IERC20,bytes)
++------------+------------------------------------------------------------+
+| Variable   | Dependencies                                               |
++------------+------------------------------------------------------------+
+| token      | ['token']                                                  |
+| data       | ['approvalCall']                                           |
+| returndata | ['Address', 'approvalCall', 'data', 'returndata', 'token'] |
++------------+------------------------------------------------------------+
+Function _callOptionalReturnBool(IERC20,bytes)
++------------+------------------------------------------------------------+
+| Variable   | Dependencies                                               |
++------------+------------------------------------------------------------+
+| token      | ['token']                                                  |
+| data       | ['approvalCall']                                           |
+|            | []                                                         |
+| success    | ['TUPLE_0', 'approvalCall', 'data', 'token']               |
+| returndata | ['TUPLE_0', 'approvalCall', 'data', 'returndata', 'token'] |
++------------+------------------------------------------------------------+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC1155Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract ERC20
++--------------+------------------------------------------------+
+| Variable     | Dependencies                                   |
++--------------+------------------------------------------------+
+| _balances    | ['_balances', 'fromBalance', 'value']          |
+| _allowances  | ['_allowances']                                |
+| _totalSupply | ['_totalSupply', 'value']                      |
+| _name        | ['_name', 'liquidityTokenName', 'name_']       |
+| _symbol      | ['_symbol', 'liquidityTokenSymbol', 'symbol_'] |
++--------------+------------------------------------------------+
+
+Function constructor(string,string)
++--------------------+-------------------------------------+
+| Variable           | Dependencies                        |
++--------------------+-------------------------------------+
+| name_              | ['liquidityTokenName']              |
+| symbol_            | ['liquidityTokenSymbol']            |
+| ERC20._balances    | []                                  |
+| ERC20._allowances  | []                                  |
+| ERC20._totalSupply | []                                  |
+| ERC20._name        | ['liquidityTokenName', 'name_']     |
+| ERC20._symbol      | ['liquidityTokenSymbol', 'symbol_'] |
++--------------------+-------------------------------------+
+Function name()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | ['_name']    |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function symbol()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | ['_symbol']  |
++--------------------+--------------+
+Function decimals()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function totalSupply()
++--------------------+------------------+
+| Variable           | Dependencies     |
++--------------------+------------------+
+|                    | []               |
+| ERC20._balances    | []               |
+| ERC20._allowances  | []               |
+| ERC20._totalSupply | ['_totalSupply'] |
+| ERC20._name        | []               |
+| ERC20._symbol      | []               |
++--------------------+------------------+
+Function balanceOf(address)
++--------------------+---------------+
+| Variable           | Dependencies  |
++--------------------+---------------+
+| account            | []            |
+|                    | []            |
+| ERC20._balances    | ['_balances'] |
+| ERC20._allowances  | []            |
+| ERC20._totalSupply | []            |
+| ERC20._name        | []            |
+| ERC20._symbol      | []            |
++--------------------+---------------+
+Function transfer(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function allowance(address,address)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+|                    | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function approve(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| spender            | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function transferFrom(address,address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| from               | []             |
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| spender            | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function _transfer(address,address,uint256)
++--------------------+-------------------+
+| Variable           | Dependencies      |
++--------------------+-------------------+
+| from               | ['from', 'owner'] |
+| to                 | ['to']            |
+| value              | ['value']         |
+| ERC20._balances    | []                |
+| ERC20._allowances  | []                |
+| ERC20._totalSupply | []                |
+| ERC20._name        | []                |
+| ERC20._symbol      | []                |
++--------------------+-------------------+
+Function _update(address,address,uint256)
++--------------------+---------------------------------------+
+| Variable           | Dependencies                          |
++--------------------+---------------------------------------+
+| from               | ['account', 'from']                   |
+| to                 | ['account', 'to']                     |
+| value              | ['value']                             |
+| fromBalance        | ['_balances', 'value']                |
+| ERC20._balances    | ['_balances', 'fromBalance', 'value'] |
+| ERC20._allowances  | []                                    |
+| ERC20._totalSupply | ['_totalSupply', 'value']             |
+| ERC20._name        | []                                    |
+| ERC20._symbol      | []                                    |
++--------------------+---------------------------------------+
+Function _mint(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _burn(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['owner']    |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256,bool)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+| value              | ['value']       |
+| emitEvent          | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function _spendAllowance(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['from']     |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| currentAllowance   | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Contract IERC20Metadata
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Permit
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function permit(address,address,uint256,uint256,uint8,bytes32,bytes32)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+| value    | []           |
+| deadline | []           |
+| v        | []           |
+| r        | []           |
+| s        | []           |
++----------+--------------+
+Function nonces(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+|          | []           |
++----------+--------------+
+Function DOMAIN_SEPARATOR()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract SafeERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function safeTransfer(IERC20,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| token    | ['token']    |
+| to       | []           |
+| value    | []           |
++----------+--------------+
+Function safeTransferFrom(IERC20,address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| token    | ['token']    |
+| from     | []           |
+| to       | []           |
+| value    | []           |
++----------+--------------+
+Function safeIncreaseAllowance(IERC20,address,uint256)
++--------------+------------------------------+
+| Variable     | Dependencies                 |
++--------------+------------------------------+
+| token        | []                           |
+| spender      | []                           |
+| value        | []                           |
+| oldAllowance | ['spender', 'this', 'token'] |
++--------------+------------------------------+
+Function safeDecreaseAllowance(IERC20,address,uint256)
++-------------------+------------------------------+
+| Variable          | Dependencies                 |
++-------------------+------------------------------+
+| token             | []                           |
+| spender           | []                           |
+| requestedDecrease | []                           |
+| currentAllowance  | ['spender', 'this', 'token'] |
++-------------------+------------------------------+
+Function forceApprove(IERC20,address,uint256)
++--------------+-------------------------------+
+| Variable     | Dependencies                  |
++--------------+-------------------------------+
+| token        | ['token']                     |
+| spender      | ['spender']                   |
+| value        | []                            |
+| approvalCall | ['spender', 'token', 'value'] |
++--------------+-------------------------------+
+Function _callOptionalReturn(IERC20,bytes)
++------------+------------------------------------------------------------+
+| Variable   | Dependencies                                               |
++------------+------------------------------------------------------------+
+| token      | ['token']                                                  |
+| data       | ['approvalCall']                                           |
+| returndata | ['Address', 'approvalCall', 'data', 'returndata', 'token'] |
++------------+------------------------------------------------------------+
+Function _callOptionalReturnBool(IERC20,bytes)
++------------+------------------------------------------------------------+
+| Variable   | Dependencies                                               |
++------------+------------------------------------------------------------+
+| token      | ['token']                                                  |
+| data       | ['approvalCall']                                           |
+|            | []                                                         |
+| success    | ['TUPLE_0', 'approvalCall', 'data', 'token']               |
+| returndata | ['TUPLE_0', 'approvalCall', 'data', 'returndata', 'token'] |
++------------+------------------------------------------------------------+
+Contract Address
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function sendValue(address,uint256)
++-----------+------------------------------------+
+| Variable  | Dependencies                       |
++-----------+------------------------------------+
+| recipient | []                                 |
+| amount    | []                                 |
+| success   | ['TUPLE_1', 'amount', 'recipient'] |
++-----------+------------------------------------+
+Function functionCall(address,bytes)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| target   | []           |
+| data     | []           |
+|          | []           |
++----------+--------------+
+Function functionCallWithValue(address,bytes,uint256)
++------------+----------------------------------------+
+| Variable   | Dependencies                           |
++------------+----------------------------------------+
+| target     | ['target']                             |
+| data       | ['data']                               |
+| value      | []                                     |
+|            | []                                     |
+| success    | ['TUPLE_2', 'data', 'target', 'value'] |
+| returndata | ['TUPLE_2', 'data', 'target', 'value'] |
++------------+----------------------------------------+
+Function functionStaticCall(address,bytes)
++------------+-------------------------------+
+| Variable   | Dependencies                  |
++------------+-------------------------------+
+| target     | []                            |
+| data       | []                            |
+|            | []                            |
+| success    | ['TUPLE_3', 'data', 'target'] |
+| returndata | ['TUPLE_3', 'data', 'target'] |
++------------+-------------------------------+
+Function functionDelegateCall(address,bytes)
++------------+-------------------------------+
+| Variable   | Dependencies                  |
++------------+-------------------------------+
+| target     | []                            |
+| data       | []                            |
+|            | []                            |
+| success    | ['TUPLE_4', 'data', 'target'] |
+| returndata | ['TUPLE_4', 'data', 'target'] |
++------------+-------------------------------+
+Function verifyCallResultFromTarget(address,bool,bytes)
++------------+----------------+
+| Variable   | Dependencies   |
++------------+----------------+
+| target     | ['target']     |
+| success    | ['success']    |
+| returndata | ['returndata'] |
+|            | []             |
++------------+----------------+
+Function verifyCallResult(bool,bytes)
++------------+--------------+
+| Variable   | Dependencies |
++------------+--------------+
+| success    | []           |
+| returndata | []           |
+|            | []           |
++------------+--------------+
+Function _revert(bytes)
++------------+----------------+
+| Variable   | Dependencies   |
++------------+----------------+
+| returndata | ['returndata'] |
++------------+----------------+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC1155Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract ERC20
++--------------+------------------------------------------------+
+| Variable     | Dependencies                                   |
++--------------+------------------------------------------------+
+| _balances    | ['_balances', 'fromBalance', 'value']          |
+| _allowances  | ['_allowances']                                |
+| _totalSupply | ['_totalSupply', 'value']                      |
+| _name        | ['_name', 'liquidityTokenName', 'name_']       |
+| _symbol      | ['_symbol', 'liquidityTokenSymbol', 'symbol_'] |
++--------------+------------------------------------------------+
+
+Function constructor(string,string)
++--------------------+-------------------------------------+
+| Variable           | Dependencies                        |
++--------------------+-------------------------------------+
+| name_              | ['liquidityTokenName']              |
+| symbol_            | ['liquidityTokenSymbol']            |
+| ERC20._balances    | []                                  |
+| ERC20._allowances  | []                                  |
+| ERC20._totalSupply | []                                  |
+| ERC20._name        | ['liquidityTokenName', 'name_']     |
+| ERC20._symbol      | ['liquidityTokenSymbol', 'symbol_'] |
++--------------------+-------------------------------------+
+Function name()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | ['_name']    |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function symbol()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | ['_symbol']  |
++--------------------+--------------+
+Function decimals()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function totalSupply()
++--------------------+------------------+
+| Variable           | Dependencies     |
++--------------------+------------------+
+|                    | []               |
+| ERC20._balances    | []               |
+| ERC20._allowances  | []               |
+| ERC20._totalSupply | ['_totalSupply'] |
+| ERC20._name        | []               |
+| ERC20._symbol      | []               |
++--------------------+------------------+
+Function balanceOf(address)
++--------------------+---------------+
+| Variable           | Dependencies  |
++--------------------+---------------+
+| account            | []            |
+|                    | []            |
+| ERC20._balances    | ['_balances'] |
+| ERC20._allowances  | []            |
+| ERC20._totalSupply | []            |
+| ERC20._name        | []            |
+| ERC20._symbol      | []            |
++--------------------+---------------+
+Function transfer(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function allowance(address,address)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+|                    | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function approve(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| spender            | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function transferFrom(address,address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| from               | []             |
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| spender            | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function _transfer(address,address,uint256)
++--------------------+-------------------+
+| Variable           | Dependencies      |
++--------------------+-------------------+
+| from               | ['from', 'owner'] |
+| to                 | ['to']            |
+| value              | ['value']         |
+| ERC20._balances    | []                |
+| ERC20._allowances  | []                |
+| ERC20._totalSupply | []                |
+| ERC20._name        | []                |
+| ERC20._symbol      | []                |
++--------------------+-------------------+
+Function _update(address,address,uint256)
++--------------------+---------------------------------------+
+| Variable           | Dependencies                          |
++--------------------+---------------------------------------+
+| from               | ['account', 'from']                   |
+| to                 | ['account', 'to']                     |
+| value              | ['value']                             |
+| fromBalance        | ['_balances', 'value']                |
+| ERC20._balances    | ['_balances', 'fromBalance', 'value'] |
+| ERC20._allowances  | []                                    |
+| ERC20._totalSupply | ['_totalSupply', 'value']             |
+| ERC20._name        | []                                    |
+| ERC20._symbol      | []                                    |
++--------------------+---------------------------------------+
+Function _mint(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _burn(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['owner']    |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256,bool)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+| value              | ['value']       |
+| emitEvent          | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function _spendAllowance(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['from']     |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| currentAllowance   | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Contract IERC20Metadata
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Permit
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function permit(address,address,uint256,uint256,uint8,bytes32,bytes32)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+| value    | []           |
+| deadline | []           |
+| v        | []           |
+| r        | []           |
+| s        | []           |
++----------+--------------+
+Function nonces(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+|          | []           |
++----------+--------------+
+Function DOMAIN_SEPARATOR()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract SafeERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function safeTransfer(IERC20,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| token    | ['token']    |
+| to       | []           |
+| value    | []           |
++----------+--------------+
+Function safeTransferFrom(IERC20,address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| token    | ['token']    |
+| from     | []           |
+| to       | []           |
+| value    | []           |
++----------+--------------+
+Function safeIncreaseAllowance(IERC20,address,uint256)
++--------------+------------------------------+
+| Variable     | Dependencies                 |
++--------------+------------------------------+
+| token        | []                           |
+| spender      | []                           |
+| value        | []                           |
+| oldAllowance | ['spender', 'this', 'token'] |
++--------------+------------------------------+
+Function safeDecreaseAllowance(IERC20,address,uint256)
++-------------------+------------------------------+
+| Variable          | Dependencies                 |
++-------------------+------------------------------+
+| token             | []                           |
+| spender           | []                           |
+| requestedDecrease | []                           |
+| currentAllowance  | ['spender', 'this', 'token'] |
++-------------------+------------------------------+
+Function forceApprove(IERC20,address,uint256)
++--------------+-------------------------------+
+| Variable     | Dependencies                  |
++--------------+-------------------------------+
+| token        | ['token']                     |
+| spender      | ['spender']                   |
+| value        | []                            |
+| approvalCall | ['spender', 'token', 'value'] |
++--------------+-------------------------------+
+Function _callOptionalReturn(IERC20,bytes)
++------------+------------------------------------------------------------+
+| Variable   | Dependencies                                               |
++------------+------------------------------------------------------------+
+| token      | ['token']                                                  |
+| data       | ['approvalCall']                                           |
+| returndata | ['Address', 'approvalCall', 'data', 'returndata', 'token'] |
++------------+------------------------------------------------------------+
+Function _callOptionalReturnBool(IERC20,bytes)
++------------+------------------------------------------------------------+
+| Variable   | Dependencies                                               |
++------------+------------------------------------------------------------+
+| token      | ['token']                                                  |
+| data       | ['approvalCall']                                           |
+|            | []                                                         |
+| success    | ['TUPLE_0', 'approvalCall', 'data', 'token']               |
+| returndata | ['TUPLE_0', 'approvalCall', 'data', 'returndata', 'token'] |
++------------+------------------------------------------------------------+
+Contract Address
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function sendValue(address,uint256)
++-----------+------------------------------------+
+| Variable  | Dependencies                       |
++-----------+------------------------------------+
+| recipient | []                                 |
+| amount    | []                                 |
+| success   | ['TUPLE_1', 'amount', 'recipient'] |
++-----------+------------------------------------+
+Function functionCall(address,bytes)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| target   | []           |
+| data     | []           |
+|          | []           |
++----------+--------------+
+Function functionCallWithValue(address,bytes,uint256)
++------------+----------------------------------------+
+| Variable   | Dependencies                           |
++------------+----------------------------------------+
+| target     | ['target']                             |
+| data       | ['data']                               |
+| value      | []                                     |
+|            | []                                     |
+| success    | ['TUPLE_2', 'data', 'target', 'value'] |
+| returndata | ['TUPLE_2', 'data', 'target', 'value'] |
++------------+----------------------------------------+
+Function functionStaticCall(address,bytes)
++------------+-------------------------------+
+| Variable   | Dependencies                  |
++------------+-------------------------------+
+| target     | []                            |
+| data       | []                            |
+|            | []                            |
+| success    | ['TUPLE_3', 'data', 'target'] |
+| returndata | ['TUPLE_3', 'data', 'target'] |
++------------+-------------------------------+
+Function functionDelegateCall(address,bytes)
++------------+-------------------------------+
+| Variable   | Dependencies                  |
++------------+-------------------------------+
+| target     | []                            |
+| data       | []                            |
+|            | []                            |
+| success    | ['TUPLE_4', 'data', 'target'] |
+| returndata | ['TUPLE_4', 'data', 'target'] |
++------------+-------------------------------+
+Function verifyCallResultFromTarget(address,bool,bytes)
++------------+----------------+
+| Variable   | Dependencies   |
++------------+----------------+
+| target     | ['target']     |
+| success    | ['success']    |
+| returndata | ['returndata'] |
+|            | []             |
++------------+----------------+
+Function verifyCallResult(bool,bytes)
++------------+--------------+
+| Variable   | Dependencies |
++------------+--------------+
+| success    | []           |
+| returndata | []           |
+|            | []           |
++------------+--------------+
+Function _revert(bytes)
++------------+----------------+
+| Variable   | Dependencies   |
++------------+----------------+
+| returndata | ['returndata'] |
++------------+----------------+
+Contract Context
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function _msgSender()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function _msgData()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC1155Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract ERC20
++--------------+------------------------------------------------+
+| Variable     | Dependencies                                   |
++--------------+------------------------------------------------+
+| _balances    | ['_balances', 'fromBalance', 'value']          |
+| _allowances  | ['_allowances']                                |
+| _totalSupply | ['_totalSupply', 'value']                      |
+| _name        | ['_name', 'liquidityTokenName', 'name_']       |
+| _symbol      | ['_symbol', 'liquidityTokenSymbol', 'symbol_'] |
++--------------+------------------------------------------------+
+
+Function constructor(string,string)
++--------------------+-------------------------------------+
+| Variable           | Dependencies                        |
++--------------------+-------------------------------------+
+| name_              | ['liquidityTokenName']              |
+| symbol_            | ['liquidityTokenSymbol']            |
+| ERC20._balances    | []                                  |
+| ERC20._allowances  | []                                  |
+| ERC20._totalSupply | []                                  |
+| ERC20._name        | ['liquidityTokenName', 'name_']     |
+| ERC20._symbol      | ['liquidityTokenSymbol', 'symbol_'] |
++--------------------+-------------------------------------+
+Function name()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | ['_name']    |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function symbol()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | ['_symbol']  |
++--------------------+--------------+
+Function decimals()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function totalSupply()
++--------------------+------------------+
+| Variable           | Dependencies     |
++--------------------+------------------+
+|                    | []               |
+| ERC20._balances    | []               |
+| ERC20._allowances  | []               |
+| ERC20._totalSupply | ['_totalSupply'] |
+| ERC20._name        | []               |
+| ERC20._symbol      | []               |
++--------------------+------------------+
+Function balanceOf(address)
++--------------------+---------------+
+| Variable           | Dependencies  |
++--------------------+---------------+
+| account            | []            |
+|                    | []            |
+| ERC20._balances    | ['_balances'] |
+| ERC20._allowances  | []            |
+| ERC20._totalSupply | []            |
+| ERC20._name        | []            |
+| ERC20._symbol      | []            |
++--------------------+---------------+
+Function transfer(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function allowance(address,address)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+|                    | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function approve(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| spender            | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function transferFrom(address,address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| from               | []             |
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| spender            | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function _transfer(address,address,uint256)
++--------------------+-------------------+
+| Variable           | Dependencies      |
++--------------------+-------------------+
+| from               | ['from', 'owner'] |
+| to                 | ['to']            |
+| value              | ['value']         |
+| ERC20._balances    | []                |
+| ERC20._allowances  | []                |
+| ERC20._totalSupply | []                |
+| ERC20._name        | []                |
+| ERC20._symbol      | []                |
++--------------------+-------------------+
+Function _update(address,address,uint256)
++--------------------+---------------------------------------+
+| Variable           | Dependencies                          |
++--------------------+---------------------------------------+
+| from               | ['account', 'from']                   |
+| to                 | ['account', 'to']                     |
+| value              | ['value']                             |
+| fromBalance        | ['_balances', 'value']                |
+| ERC20._balances    | ['_balances', 'fromBalance', 'value'] |
+| ERC20._allowances  | []                                    |
+| ERC20._totalSupply | ['_totalSupply', 'value']             |
+| ERC20._name        | []                                    |
+| ERC20._symbol      | []                                    |
++--------------------+---------------------------------------+
+Function _mint(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _burn(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['owner']    |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256,bool)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+| value              | ['value']       |
+| emitEvent          | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function _spendAllowance(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['from']     |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| currentAllowance   | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Contract IERC20Metadata
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Permit
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function permit(address,address,uint256,uint256,uint8,bytes32,bytes32)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+| value    | []           |
+| deadline | []           |
+| v        | []           |
+| r        | []           |
+| s        | []           |
++----------+--------------+
+Function nonces(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+|          | []           |
++----------+--------------+
+Function DOMAIN_SEPARATOR()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract SafeERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function safeTransfer(IERC20,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| token    | ['token']    |
+| to       | []           |
+| value    | []           |
++----------+--------------+
+Function safeTransferFrom(IERC20,address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| token    | ['token']    |
+| from     | []           |
+| to       | []           |
+| value    | []           |
++----------+--------------+
+Function safeIncreaseAllowance(IERC20,address,uint256)
++--------------+------------------------------+
+| Variable     | Dependencies                 |
++--------------+------------------------------+
+| token        | []                           |
+| spender      | []                           |
+| value        | []                           |
+| oldAllowance | ['spender', 'this', 'token'] |
++--------------+------------------------------+
+Function safeDecreaseAllowance(IERC20,address,uint256)
++-------------------+------------------------------+
+| Variable          | Dependencies                 |
++-------------------+------------------------------+
+| token             | []                           |
+| spender           | []                           |
+| requestedDecrease | []                           |
+| currentAllowance  | ['spender', 'this', 'token'] |
++-------------------+------------------------------+
+Function forceApprove(IERC20,address,uint256)
++--------------+-------------------------------+
+| Variable     | Dependencies                  |
++--------------+-------------------------------+
+| token        | ['token']                     |
+| spender      | ['spender']                   |
+| value        | []                            |
+| approvalCall | ['spender', 'token', 'value'] |
++--------------+-------------------------------+
+Function _callOptionalReturn(IERC20,bytes)
++------------+------------------------------------------------------------+
+| Variable   | Dependencies                                               |
++------------+------------------------------------------------------------+
+| token      | ['token']                                                  |
+| data       | ['approvalCall']                                           |
+| returndata | ['Address', 'approvalCall', 'data', 'returndata', 'token'] |
++------------+------------------------------------------------------------+
+Function _callOptionalReturnBool(IERC20,bytes)
++------------+------------------------------------------------------------+
+| Variable   | Dependencies                                               |
++------------+------------------------------------------------------------+
+| token      | ['token']                                                  |
+| data       | ['approvalCall']                                           |
+|            | []                                                         |
+| success    | ['TUPLE_0', 'approvalCall', 'data', 'token']               |
+| returndata | ['TUPLE_0', 'approvalCall', 'data', 'returndata', 'token'] |
++------------+------------------------------------------------------------+
+Contract Address
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function sendValue(address,uint256)
++-----------+------------------------------------+
+| Variable  | Dependencies                       |
++-----------+------------------------------------+
+| recipient | []                                 |
+| amount    | []                                 |
+| success   | ['TUPLE_1', 'amount', 'recipient'] |
++-----------+------------------------------------+
+Function functionCall(address,bytes)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| target   | []           |
+| data     | []           |
+|          | []           |
++----------+--------------+
+Function functionCallWithValue(address,bytes,uint256)
++------------+----------------------------------------+
+| Variable   | Dependencies                           |
++------------+----------------------------------------+
+| target     | ['target']                             |
+| data       | ['data']                               |
+| value      | []                                     |
+|            | []                                     |
+| success    | ['TUPLE_2', 'data', 'target', 'value'] |
+| returndata | ['TUPLE_2', 'data', 'target', 'value'] |
++------------+----------------------------------------+
+Function functionStaticCall(address,bytes)
++------------+-------------------------------+
+| Variable   | Dependencies                  |
++------------+-------------------------------+
+| target     | []                            |
+| data       | []                            |
+|            | []                            |
+| success    | ['TUPLE_3', 'data', 'target'] |
+| returndata | ['TUPLE_3', 'data', 'target'] |
++------------+-------------------------------+
+Function functionDelegateCall(address,bytes)
++------------+-------------------------------+
+| Variable   | Dependencies                  |
++------------+-------------------------------+
+| target     | []                            |
+| data       | []                            |
+|            | []                            |
+| success    | ['TUPLE_4', 'data', 'target'] |
+| returndata | ['TUPLE_4', 'data', 'target'] |
++------------+-------------------------------+
+Function verifyCallResultFromTarget(address,bool,bytes)
++------------+----------------+
+| Variable   | Dependencies   |
++------------+----------------+
+| target     | ['target']     |
+| success    | ['success']    |
+| returndata | ['returndata'] |
+|            | []             |
++------------+----------------+
+Function verifyCallResult(bool,bytes)
++------------+--------------+
+| Variable   | Dependencies |
++------------+--------------+
+| success    | []           |
+| returndata | []           |
+|            | []           |
++------------+--------------+
+Function _revert(bytes)
++------------+----------------+
+| Variable   | Dependencies   |
++------------+----------------+
+| returndata | ['returndata'] |
++------------+----------------+
+Contract Context
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function _msgSender()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function _msgData()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract PoolFactory
++-------------+--------------+
+| Variable    | Dependencies |
++-------------+--------------+
+| s_pools     | []           |
+| s_tokens    | []           |
+| i_wethToken | []           |
++-------------+--------------+
+
+Function constructor(address)
++-------------------------+--------------+
+| Variable                | Dependencies |
++-------------------------+--------------+
+| wethToken               | []           |
+| PoolFactory.s_pools     | []           |
+| PoolFactory.s_tokens    | []           |
+| PoolFactory.i_wethToken | []           |
++-------------------------+--------------+
+Function createPool(address)
++-------------------------+--------------+
+| Variable                | Dependencies |
++-------------------------+--------------+
+| tokenAddress            | []           |
+|                         | []           |
+| liquidityTokenName      | []           |
+| liquidityTokenSymbol    | []           |
+| tPool                   | []           |
+| PoolFactory.s_pools     | []           |
+| PoolFactory.s_tokens    | []           |
+| PoolFactory.i_wethToken | []           |
++-------------------------+--------------+
+Function getPool(address)
++-------------------------+--------------+
+| Variable                | Dependencies |
++-------------------------+--------------+
+| tokenAddress            | []           |
+|                         | []           |
+| PoolFactory.s_pools     | []           |
+| PoolFactory.s_tokens    | []           |
+| PoolFactory.i_wethToken | []           |
++-------------------------+--------------+
+Function getToken(address)
++-------------------------+--------------+
+| Variable                | Dependencies |
++-------------------------+--------------+
+| pool                    | []           |
+|                         | []           |
+| PoolFactory.s_pools     | []           |
+| PoolFactory.s_tokens    | []           |
+| PoolFactory.i_wethToken | []           |
++-------------------------+--------------+
+Function getWethToken()
++-------------------------+--------------+
+| Variable                | Dependencies |
++-------------------------+--------------+
+|                         | []           |
+| PoolFactory.s_pools     | []           |
+| PoolFactory.s_tokens    | []           |
+| PoolFactory.i_wethToken | []           |
++-------------------------+--------------+
+INFO:Printers:
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| amount   | []           |
+|          | []           |
++----------+--------------+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC721Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract IERC1155Errors
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Contract ERC20
++--------------+------------------------------------------------+
+| Variable     | Dependencies                                   |
++--------------+------------------------------------------------+
+| _balances    | ['_balances', 'fromBalance', 'value']          |
+| _allowances  | ['_allowances']                                |
+| _totalSupply | ['_totalSupply', 'value']                      |
+| _name        | ['_name', 'liquidityTokenName', 'name_']       |
+| _symbol      | ['_symbol', 'liquidityTokenSymbol', 'symbol_'] |
++--------------+------------------------------------------------+
+
+Function constructor(string,string)
++--------------------+-------------------------------------+
+| Variable           | Dependencies                        |
++--------------------+-------------------------------------+
+| name_              | ['liquidityTokenName']              |
+| symbol_            | ['liquidityTokenSymbol']            |
+| ERC20._balances    | []                                  |
+| ERC20._allowances  | []                                  |
+| ERC20._totalSupply | []                                  |
+| ERC20._name        | ['liquidityTokenName', 'name_']     |
+| ERC20._symbol      | ['liquidityTokenSymbol', 'symbol_'] |
++--------------------+-------------------------------------+
+Function name()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | ['_name']    |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function symbol()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | ['_symbol']  |
++--------------------+--------------+
+Function decimals()
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+|                    | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function totalSupply()
++--------------------+------------------+
+| Variable           | Dependencies     |
++--------------------+------------------+
+|                    | []               |
+| ERC20._balances    | []               |
+| ERC20._allowances  | []               |
+| ERC20._totalSupply | ['_totalSupply'] |
+| ERC20._name        | []               |
+| ERC20._symbol      | []               |
++--------------------+------------------+
+Function balanceOf(address)
++--------------------+---------------+
+| Variable           | Dependencies  |
++--------------------+---------------+
+| account            | []            |
+|                    | []            |
+| ERC20._balances    | ['_balances'] |
+| ERC20._allowances  | []            |
+| ERC20._totalSupply | []            |
+| ERC20._name        | []            |
+| ERC20._symbol      | []            |
++--------------------+---------------+
+Function transfer(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function allowance(address,address)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+|                    | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function approve(address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| spender            | []             |
+| value              | []             |
+|                    | []             |
+| owner              | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function transferFrom(address,address,uint256)
++--------------------+----------------+
+| Variable           | Dependencies   |
++--------------------+----------------+
+| from               | []             |
+| to                 | []             |
+| value              | []             |
+|                    | []             |
+| spender            | ['msg.sender'] |
+| ERC20._balances    | []             |
+| ERC20._allowances  | []             |
+| ERC20._totalSupply | []             |
+| ERC20._name        | []             |
+| ERC20._symbol      | []             |
++--------------------+----------------+
+Function _transfer(address,address,uint256)
++--------------------+-------------------+
+| Variable           | Dependencies      |
++--------------------+-------------------+
+| from               | ['from', 'owner'] |
+| to                 | ['to']            |
+| value              | ['value']         |
+| ERC20._balances    | []                |
+| ERC20._allowances  | []                |
+| ERC20._totalSupply | []                |
+| ERC20._name        | []                |
+| ERC20._symbol      | []                |
++--------------------+-------------------+
+Function _update(address,address,uint256)
++--------------------+---------------------------------------+
+| Variable           | Dependencies                          |
++--------------------+---------------------------------------+
+| from               | ['account', 'from']                   |
+| to                 | ['account', 'to']                     |
+| value              | ['value']                             |
+| fromBalance        | ['_balances', 'value']                |
+| ERC20._balances    | ['_balances', 'fromBalance', 'value'] |
+| ERC20._allowances  | []                                    |
+| ERC20._totalSupply | ['_totalSupply', 'value']             |
+| ERC20._name        | []                                    |
+| ERC20._symbol      | []                                    |
++--------------------+---------------------------------------+
+Function _mint(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _burn(address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| account            | []           |
+| value              | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['owner']    |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Function _approve(address,address,uint256,bool)
++--------------------+-----------------+
+| Variable           | Dependencies    |
++--------------------+-----------------+
+| owner              | ['owner']       |
+| spender            | ['spender']     |
+| value              | ['value']       |
+| emitEvent          | []              |
+| ERC20._balances    | []              |
+| ERC20._allowances  | ['_allowances'] |
+| ERC20._totalSupply | []              |
+| ERC20._name        | []              |
+| ERC20._symbol      | []              |
++--------------------+-----------------+
+Function _spendAllowance(address,address,uint256)
++--------------------+--------------+
+| Variable           | Dependencies |
++--------------------+--------------+
+| owner              | ['from']     |
+| spender            | ['spender']  |
+| value              | ['value']    |
+| currentAllowance   | []           |
+| ERC20._balances    | []           |
+| ERC20._allowances  | []           |
+| ERC20._totalSupply | []           |
+| ERC20._name        | []           |
+| ERC20._symbol      | []           |
++--------------------+--------------+
+Contract IERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function totalSupply()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function balanceOf(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| account  | []           |
+|          | []           |
++----------+--------------+
+Function transfer(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function allowance(address,address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+|          | []           |
++----------+--------------+
+Function approve(address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| spender  | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Function transferFrom(address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| from     | []           |
+| to       | []           |
+| value    | []           |
+|          | []           |
++----------+--------------+
+Contract IERC20Metadata
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function name()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function symbol()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function decimals()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract IERC20Permit
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function permit(address,address,uint256,uint256,uint8,bytes32,bytes32)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+| spender  | []           |
+| value    | []           |
+| deadline | []           |
+| v        | []           |
+| r        | []           |
+| s        | []           |
++----------+--------------+
+Function nonces(address)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| owner    | []           |
+|          | []           |
++----------+--------------+
+Function DOMAIN_SEPARATOR()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract SafeERC20
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function safeTransfer(IERC20,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| token    | ['token']    |
+| to       | []           |
+| value    | []           |
++----------+--------------+
+Function safeTransferFrom(IERC20,address,address,uint256)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| token    | ['token']    |
+| from     | []           |
+| to       | []           |
+| value    | []           |
++----------+--------------+
+Function safeIncreaseAllowance(IERC20,address,uint256)
++--------------+------------------------------+
+| Variable     | Dependencies                 |
++--------------+------------------------------+
+| token        | []                           |
+| spender      | []                           |
+| value        | []                           |
+| oldAllowance | ['spender', 'this', 'token'] |
++--------------+------------------------------+
+Function safeDecreaseAllowance(IERC20,address,uint256)
++-------------------+------------------------------+
+| Variable          | Dependencies                 |
++-------------------+------------------------------+
+| token             | []                           |
+| spender           | []                           |
+| requestedDecrease | []                           |
+| currentAllowance  | ['spender', 'this', 'token'] |
++-------------------+------------------------------+
+Function forceApprove(IERC20,address,uint256)
++--------------+-------------------------------+
+| Variable     | Dependencies                  |
++--------------+-------------------------------+
+| token        | ['token']                     |
+| spender      | ['spender']                   |
+| value        | []                            |
+| approvalCall | ['spender', 'token', 'value'] |
++--------------+-------------------------------+
+Function _callOptionalReturn(IERC20,bytes)
++------------+------------------------------------------------------------+
+| Variable   | Dependencies                                               |
++------------+------------------------------------------------------------+
+| token      | ['token']                                                  |
+| data       | ['approvalCall']                                           |
+| returndata | ['Address', 'approvalCall', 'data', 'returndata', 'token'] |
++------------+------------------------------------------------------------+
+Function _callOptionalReturnBool(IERC20,bytes)
++------------+------------------------------------------------------------+
+| Variable   | Dependencies                                               |
++------------+------------------------------------------------------------+
+| token      | ['token']                                                  |
+| data       | ['approvalCall']                                           |
+|            | []                                                         |
+| success    | ['TUPLE_0', 'approvalCall', 'data', 'token']               |
+| returndata | ['TUPLE_0', 'approvalCall', 'data', 'returndata', 'token'] |
++------------+------------------------------------------------------------+
+Contract Address
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function sendValue(address,uint256)
++-----------+------------------------------------+
+| Variable  | Dependencies                       |
++-----------+------------------------------------+
+| recipient | []                                 |
+| amount    | []                                 |
+| success   | ['TUPLE_1', 'amount', 'recipient'] |
++-----------+------------------------------------+
+Function functionCall(address,bytes)
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+| target   | []           |
+| data     | []           |
+|          | []           |
++----------+--------------+
+Function functionCallWithValue(address,bytes,uint256)
++------------+----------------------------------------+
+| Variable   | Dependencies                           |
++------------+----------------------------------------+
+| target     | ['target']                             |
+| data       | ['data']                               |
+| value      | []                                     |
+|            | []                                     |
+| success    | ['TUPLE_2', 'data', 'target', 'value'] |
+| returndata | ['TUPLE_2', 'data', 'target', 'value'] |
++------------+----------------------------------------+
+Function functionStaticCall(address,bytes)
++------------+-------------------------------+
+| Variable   | Dependencies                  |
++------------+-------------------------------+
+| target     | []                            |
+| data       | []                            |
+|            | []                            |
+| success    | ['TUPLE_3', 'data', 'target'] |
+| returndata | ['TUPLE_3', 'data', 'target'] |
++------------+-------------------------------+
+Function functionDelegateCall(address,bytes)
++------------+-------------------------------+
+| Variable   | Dependencies                  |
++------------+-------------------------------+
+| target     | []                            |
+| data       | []                            |
+|            | []                            |
+| success    | ['TUPLE_4', 'data', 'target'] |
+| returndata | ['TUPLE_4', 'data', 'target'] |
++------------+-------------------------------+
+Function verifyCallResultFromTarget(address,bool,bytes)
++------------+----------------+
+| Variable   | Dependencies   |
++------------+----------------+
+| target     | ['target']     |
+| success    | ['success']    |
+| returndata | ['returndata'] |
+|            | []             |
++------------+----------------+
+Function verifyCallResult(bool,bytes)
++------------+--------------+
+| Variable   | Dependencies |
++------------+--------------+
+| success    | []           |
+| returndata | []           |
+|            | []           |
++------------+--------------+
+Function _revert(bytes)
++------------+----------------+
+| Variable   | Dependencies   |
++------------+----------------+
+| returndata | ['returndata'] |
++------------+----------------+
+Contract Context
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
++----------+--------------+
+
+Function _msgSender()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Function _msgData()
++----------+--------------+
+| Variable | Dependencies |
++----------+--------------+
+|          | []           |
++----------+--------------+
+Contract PoolFactory
++-------------+--------------+
+| Variable    | Dependencies |
++-------------+--------------+
+| s_pools     | []           |
+| s_tokens    | []           |
+| i_wethToken | []           |
++-------------+--------------+
+
+Function constructor(address)
++-------------------------+--------------+
+| Variable                | Dependencies |
++-------------------------+--------------+
+| wethToken               | []           |
+| PoolFactory.s_pools     | []           |
+| PoolFactory.s_tokens    | []           |
+| PoolFactory.i_wethToken | []           |
++-------------------------+--------------+
+Function createPool(address)
++-------------------------+--------------+
+| Variable                | Dependencies |
++-------------------------+--------------+
+| tokenAddress            | []           |
+|                         | []           |
+| liquidityTokenName      | []           |
+| liquidityTokenSymbol    | []           |
+| tPool                   | []           |
+| PoolFactory.s_pools     | []           |
+| PoolFactory.s_tokens    | []           |
+| PoolFactory.i_wethToken | []           |
++-------------------------+--------------+
+Function getPool(address)
++-------------------------+--------------+
+| Variable                | Dependencies |
++-------------------------+--------------+
+| tokenAddress            | []           |
+|                         | []           |
+| PoolFactory.s_pools     | []           |
+| PoolFactory.s_tokens    | []           |
+| PoolFactory.i_wethToken | []           |
++-------------------------+--------------+
+Function getToken(address)
++-------------------------+--------------+
+| Variable                | Dependencies |
++-------------------------+--------------+
+| pool                    | []           |
+|                         | []           |
+| PoolFactory.s_pools     | []           |
+| PoolFactory.s_tokens    | []           |
+| PoolFactory.i_wethToken | []           |
++-------------------------+--------------+
+Function getWethToken()
++-------------------------+--------------+
+| Variable                | Dependencies |
++-------------------------+--------------+
+|                         | []           |
+| PoolFactory.s_pools     | []           |
+| PoolFactory.s_tokens    | []           |
+| PoolFactory.i_wethToken | []           |
++-------------------------+--------------+
+Contract TSwapPool
++------------------------+------------------------------+
+| Variable               | Dependencies                 |
++------------------------+------------------------------+
+| i_wethToken            | ['i_wethToken', 'wethToken'] |
+| i_poolToken            | ['i_poolToken', 'poolToken'] |
+| MINIMUM_WETH_LIQUIDITY | ['MINIMUM_WETH_LIQUIDITY']   |
+| swap_count             | ['swap_count']               |
+| SWAP_COUNT_MAX         | ['SWAP_COUNT_MAX']           |
++------------------------+------------------------------+
+
+Function constructor(address,address,string,string)
++----------------------------------+---------------+
+| Variable                         | Dependencies  |
++----------------------------------+---------------+
+| poolToken                        | []            |
+| wethToken                        | []            |
+| liquidityTokenName               | []            |
+| liquidityTokenSymbol             | []            |
+| TSwapPool.i_wethToken            | ['wethToken'] |
+| TSwapPool.i_poolToken            | ['poolToken'] |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []            |
+| TSwapPool.swap_count             | []            |
+| TSwapPool.SWAP_COUNT_MAX         | []            |
++----------------------------------+---------------+
+Function deposit(uint256,uint256,uint256,uint64)
++----------------------------------+-----------------------------------------------------------------------------------+
+| Variable                         | Dependencies                                                                      |
++----------------------------------+-----------------------------------------------------------------------------------+
+| wethToDeposit                    | []                                                                                |
+| minimumLiquidityTokensToMint     | []                                                                                |
+| maximumPoolTokensToDeposit       | []                                                                                |
+| deadline                         | []                                                                                |
+| liquidityTokensToMint            | ['i_wethToken', 'liquidityTokensToMint', 'this', 'wethReserves', 'wethToDeposit'] |
+| wethReserves                     | ['i_wethToken', 'this']                                                           |
+| poolTokenReserves                | ['i_poolToken', 'this']                                                           |
+| poolTokensToDeposit              | []                                                                                |
+| TSwapPool.i_wethToken            | ['i_wethToken']                                                                   |
+| TSwapPool.i_poolToken            | ['i_poolToken']                                                                   |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | ['MINIMUM_WETH_LIQUIDITY']                                                        |
+| TSwapPool.swap_count             | []                                                                                |
+| TSwapPool.SWAP_COUNT_MAX         | []                                                                                |
++----------------------------------+-----------------------------------------------------------------------------------+
+Function _addLiquidityMintAndTransfer(uint256,uint256,uint256)
++----------------------------------+-------------------------------------------------------+
+| Variable                         | Dependencies                                          |
++----------------------------------+-------------------------------------------------------+
+| wethToDeposit                    | ['wethToDeposit']                                     |
+| poolTokensToDeposit              | ['maximumPoolTokensToDeposit', 'poolTokensToDeposit'] |
+| liquidityTokensToMint            | ['liquidityTokensToMint', 'wethToDeposit']            |
+| TSwapPool.i_wethToken            | ['i_wethToken']                                       |
+| TSwapPool.i_poolToken            | ['i_poolToken']                                       |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []                                                    |
+| TSwapPool.swap_count             | []                                                    |
+| TSwapPool.SWAP_COUNT_MAX         | []                                                    |
++----------------------------------+-------------------------------------------------------+
+Function withdraw(uint256,uint256,uint256,uint64)
++----------------------------------+--------------------------------------------------+
+| Variable                         | Dependencies                                     |
++----------------------------------+--------------------------------------------------+
+| liquidityTokensToBurn            | []                                               |
+| minWethToWithdraw                | []                                               |
+| minPoolTokensToWithdraw          | []                                               |
+| deadline                         | []                                               |
+| wethToWithdraw                   | ['i_wethToken', 'liquidityTokensToBurn', 'this'] |
+| poolTokensToWithdraw             | ['i_poolToken', 'liquidityTokensToBurn', 'this'] |
+| TSwapPool.i_wethToken            | ['i_wethToken']                                  |
+| TSwapPool.i_poolToken            | ['i_poolToken']                                  |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []                                               |
+| TSwapPool.swap_count             | []                                               |
+| TSwapPool.SWAP_COUNT_MAX         | []                                               |
++----------------------------------+--------------------------------------------------+
+Function getOutputAmountBasedOnInput(uint256,uint256,uint256)
++----------------------------------+----------------------------------------------------------+
+| Variable                         | Dependencies                                             |
++----------------------------------+----------------------------------------------------------+
+| inputAmount                      | ['inputAmount']                                          |
+| inputReserves                    | ['inputReserves']                                        |
+| outputReserves                   | ['outputReserves']                                       |
+| outputAmount                     | []                                                       |
+| inputAmountMinusFee              | ['inputAmount']                                          |
+| numerator                        | ['inputAmount', 'inputAmountMinusFee', 'outputReserves'] |
+| denominator                      | ['inputAmount', 'inputAmountMinusFee', 'inputReserves']  |
+| TSwapPool.i_wethToken            | []                                                       |
+| TSwapPool.i_poolToken            | []                                                       |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []                                                       |
+| TSwapPool.swap_count             | []                                                       |
+| TSwapPool.SWAP_COUNT_MAX         | []                                                       |
++----------------------------------+----------------------------------------------------------+
+Function getInputAmountBasedOnOutput(uint256,uint256,uint256)
++----------------------------------+--------------------+
+| Variable                         | Dependencies       |
++----------------------------------+--------------------+
+| outputAmount                     | ['outputAmount']   |
+| inputReserves                    | ['inputReserves']  |
+| outputReserves                   | ['outputReserves'] |
+| inputAmount                      | []                 |
+| TSwapPool.i_wethToken            | []                 |
+| TSwapPool.i_poolToken            | []                 |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []                 |
+| TSwapPool.swap_count             | []                 |
+| TSwapPool.SWAP_COUNT_MAX         | []                 |
++----------------------------------+--------------------+
+Function swapExactInput(IERC20,uint256,IERC20,uint256,uint64)
++----------------------------------+-------------------------+
+| Variable                         | Dependencies            |
++----------------------------------+-------------------------+
+| inputToken                       | []                      |
+| inputAmount                      | []                      |
+| outputToken                      | []                      |
+| minOutputAmount                  | []                      |
+| deadline                         | []                      |
+| output                           | []                      |
+| inputReserves                    | ['inputToken', 'this']  |
+| outputReserves                   | ['outputToken', 'this'] |
+| outputAmount                     | []                      |
+| TSwapPool.i_wethToken            | []                      |
+| TSwapPool.i_poolToken            | []                      |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []                      |
+| TSwapPool.swap_count             | []                      |
+| TSwapPool.SWAP_COUNT_MAX         | []                      |
++----------------------------------+-------------------------+
+Function swapExactOutput(IERC20,IERC20,uint256,uint64)
++----------------------------------+----------------------------------------+
+| Variable                         | Dependencies                           |
++----------------------------------+----------------------------------------+
+| inputToken                       | ['i_poolToken']                        |
+| outputToken                      | ['i_wethToken']                        |
+| outputAmount                     | ['poolTokenAmount']                    |
+| deadline                         | []                                     |
+| inputAmount                      | []                                     |
+| inputReserves                    | ['i_poolToken', 'inputToken', 'this']  |
+| outputReserves                   | ['i_wethToken', 'outputToken', 'this'] |
+| TSwapPool.i_wethToken            | []                                     |
+| TSwapPool.i_poolToken            | []                                     |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []                                     |
+| TSwapPool.swap_count             | []                                     |
+| TSwapPool.SWAP_COUNT_MAX         | []                                     |
++----------------------------------+----------------------------------------+
+Function sellPoolTokens(uint256)
++----------------------------------+-----------------+
+| Variable                         | Dependencies    |
++----------------------------------+-----------------+
+| poolTokenAmount                  | []              |
+| wethAmount                       | []              |
+| TSwapPool.i_wethToken            | ['i_wethToken'] |
+| TSwapPool.i_poolToken            | ['i_poolToken'] |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []              |
+| TSwapPool.swap_count             | []              |
+| TSwapPool.SWAP_COUNT_MAX         | []              |
++----------------------------------+-----------------+
+Function _swap(IERC20,uint256,IERC20,uint256)
++----------------------------------+--------------------+
+| Variable                         | Dependencies       |
++----------------------------------+--------------------+
+| inputToken                       | ['inputToken']     |
+| inputAmount                      | ['inputAmount']    |
+| outputToken                      | ['outputToken']    |
+| outputAmount                     | ['outputAmount']   |
+| TSwapPool.i_wethToken            | []                 |
+| TSwapPool.i_poolToken            | []                 |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []                 |
+| TSwapPool.swap_count             | ['swap_count']     |
+| TSwapPool.SWAP_COUNT_MAX         | ['SWAP_COUNT_MAX'] |
++----------------------------------+--------------------+
+Function _isUnknown(IERC20)
++----------------------------------+-------------------------------+
+| Variable                         | Dependencies                  |
++----------------------------------+-------------------------------+
+| token                            | ['inputToken', 'outputToken'] |
+|                                  | []                            |
+| TSwapPool.i_wethToken            | ['i_wethToken']               |
+| TSwapPool.i_poolToken            | ['i_poolToken']               |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []                            |
+| TSwapPool.swap_count             | []                            |
+| TSwapPool.SWAP_COUNT_MAX         | []                            |
++----------------------------------+-------------------------------+
+Function getPoolTokensToDepositBasedOnWeth(uint256)
++----------------------------------+-------------------------+
+| Variable                         | Dependencies            |
++----------------------------------+-------------------------+
+| wethToDeposit                    | ['wethToDeposit']       |
+|                                  | []                      |
+| poolTokenReserves                | ['i_poolToken', 'this'] |
+| wethReserves                     | ['i_wethToken', 'this'] |
+| TSwapPool.i_wethToken            | ['i_wethToken']         |
+| TSwapPool.i_poolToken            | ['i_poolToken']         |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []                      |
+| TSwapPool.swap_count             | []                      |
+| TSwapPool.SWAP_COUNT_MAX         | []                      |
++----------------------------------+-------------------------+
+Function totalLiquidityTokenSupply()
++----------------------------------+--------------+
+| Variable                         | Dependencies |
++----------------------------------+--------------+
+|                                  | []           |
+| TSwapPool.i_wethToken            | []           |
+| TSwapPool.i_poolToken            | []           |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []           |
+| TSwapPool.swap_count             | []           |
+| TSwapPool.SWAP_COUNT_MAX         | []           |
++----------------------------------+--------------+
+Function getPoolToken()
++----------------------------------+-----------------+
+| Variable                         | Dependencies    |
++----------------------------------+-----------------+
+|                                  | []              |
+| TSwapPool.i_wethToken            | []              |
+| TSwapPool.i_poolToken            | ['i_poolToken'] |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []              |
+| TSwapPool.swap_count             | []              |
+| TSwapPool.SWAP_COUNT_MAX         | []              |
++----------------------------------+-----------------+
+Function getWeth()
++----------------------------------+-----------------+
+| Variable                         | Dependencies    |
++----------------------------------+-----------------+
+|                                  | []              |
+| TSwapPool.i_wethToken            | ['i_wethToken'] |
+| TSwapPool.i_poolToken            | []              |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []              |
+| TSwapPool.swap_count             | []              |
+| TSwapPool.SWAP_COUNT_MAX         | []              |
++----------------------------------+-----------------+
+Function getMinimumWethDepositAmount()
++----------------------------------+----------------------------+
+| Variable                         | Dependencies               |
++----------------------------------+----------------------------+
+|                                  | []                         |
+| TSwapPool.i_wethToken            | []                         |
+| TSwapPool.i_poolToken            | []                         |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | ['MINIMUM_WETH_LIQUIDITY'] |
+| TSwapPool.swap_count             | []                         |
+| TSwapPool.SWAP_COUNT_MAX         | []                         |
++----------------------------------+----------------------------+
+Function getPriceOfOneWethInPoolTokens()
++----------------------------------+-----------------+
+| Variable                         | Dependencies    |
++----------------------------------+-----------------+
+|                                  | []              |
+| TSwapPool.i_wethToken            | ['i_wethToken'] |
+| TSwapPool.i_poolToken            | ['i_poolToken'] |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []              |
+| TSwapPool.swap_count             | []              |
+| TSwapPool.SWAP_COUNT_MAX         | []              |
++----------------------------------+-----------------+
+Function getPriceOfOnePoolTokenInWeth()
++----------------------------------+-----------------+
+| Variable                         | Dependencies    |
++----------------------------------+-----------------+
+|                                  | []              |
+| TSwapPool.i_wethToken            | ['i_wethToken'] |
+| TSwapPool.i_poolToken            | ['i_poolToken'] |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []              |
+| TSwapPool.swap_count             | []              |
+| TSwapPool.SWAP_COUNT_MAX         | []              |
++----------------------------------+-----------------+
+Function slitherConstructorVariables()
++----------------------------------+--------------+
+| Variable                         | Dependencies |
++----------------------------------+--------------+
+| TSwapPool.i_wethToken            | []           |
+| TSwapPool.i_poolToken            | []           |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []           |
+| TSwapPool.swap_count             | []           |
+| TSwapPool.SWAP_COUNT_MAX         | []           |
++----------------------------------+--------------+
+Function slitherConstructorConstantVariables()
++----------------------------------+--------------+
+| Variable                         | Dependencies |
++----------------------------------+--------------+
+| TSwapPool.i_wethToken            | []           |
+| TSwapPool.i_poolToken            | []           |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []           |
+| TSwapPool.swap_count             | []           |
+| TSwapPool.SWAP_COUNT_MAX         | []           |
++----------------------------------+--------------+
+Function revertIfDeadlinePassed(uint64)
++----------------------------------+--------------+
+| Variable                         | Dependencies |
++----------------------------------+--------------+
+| deadline                         | ['deadline'] |
+| TSwapPool.i_wethToken            | []           |
+| TSwapPool.i_poolToken            | []           |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []           |
+| TSwapPool.swap_count             | []           |
+| TSwapPool.SWAP_COUNT_MAX         | []           |
++----------------------------------+--------------+
+Function revertIfZero(uint256)
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| Variable                         | Dependencies                                                                                                                                |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| amount                           | ['inputAmount', 'liquidityTokensToBurn', 'minPoolTokensToWithdraw', 'minWethToWithdraw', 'outputAmount', 'outputReserves', 'wethToDeposit'] |
+| TSwapPool.i_wethToken            | []                                                                                                                                          |
+| TSwapPool.i_poolToken            | []                                                                                                                                          |
+| TSwapPool.MINIMUM_WETH_LIQUIDITY | []                                                                                                                                          |
+| TSwapPool.swap_count             | []                                                                                                                                          |
+| TSwapPool.SWAP_COUNT_MAX         | []                                                                                                                                          |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+INFO:Slither:. analyzed (13 contracts)
