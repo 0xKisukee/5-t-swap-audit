@@ -1,0 +1,70 @@
+{
+    "solidity-va.hover": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.ignoreMissingGitWarning": true,
+    "git.autofetchPeriod": 10,
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "chat.viewSessions.orientation": "stacked",
+    "solidity.compileUsingRemoteVersion": "0.8.20",
+    "claudeCode.selectedModel": "default",
+    "inline-bookmarks.expert.custom.styles": {
+        "red": {
+            "gutterIconColor": "#FF2D00",
+            "light": {
+                "color": "#FF2D00",
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "#FF2D00",
+                "fontWeight": "bold"
+            }
+        },
+        "blue": {
+            "gutterIconColor": "#3498DB",
+            "light": {
+                "color": "#3498DB",
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "#3498DB",
+                "fontWeight": "bold"
+            }
+        },
+        "green": {
+            "gutterIconColor": "#98C379",
+            "light": {
+                "color": "#98C379",
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "#98C379",
+                "fontWeight": "bold"
+            }
+        },
+        "purple": {
+            "gutterIconColor": "#C679E0",
+            "light": {
+                "color": "#C679E0",
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "#C679E0",
+                "fontWeight": "bold"
+            }
+        },
+    },
+    "inline-bookmarks.view.showVisibleFilesOnly": false,
+    "inline-bookmarks.default.words.red": "",
+    "inline-bookmarks.default.words.blue": "",
+    "inline-bookmarks.default.words.green": "",
+    "inline-bookmarks.default.words.purple": "",
+    "inline-bookmarks.expert.custom.words.mapping": {
+        "red": ["@audit-issue"],
+        "blue": ["@audit-question"],
+        "green": ["@audit-ok"],
+        "purple": ["@follow-up"],
+    },
+    "inline-bookmarks.exceptions.file.extensions.ignore": ".json",
+}
