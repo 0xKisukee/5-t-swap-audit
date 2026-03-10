@@ -113,13 +113,23 @@ contract TSwapPool is ERC20 {
     function deposit(
         uint256 wethToDeposit,
         uint256 minimumLiquidityTokensToMint,
+
+        //@audit-question #a: what if this is 0?
+        // if there is liquidity, it will revert
+        // but if there is no liq yet, it will deposit with 0 poolTokens
         uint256 maximumPoolTokensToDeposit,
         uint64 deadline
     )
         external
         revertIfZero(wethToDeposit)
+
+        // @follow-up #a6: should add "revertIfZero(maximumPoolTokensToDeposit)"
+
         returns (uint256 liquidityTokensToMint)
     {
+
+        // @audit-question: if the token price is very high compared to weth, it can be a DoS
+        // because the token amount corresponding to MINIMUM_WETH_LIQUIDITY weth, will be too high
         if (wethToDeposit < MINIMUM_WETH_LIQUIDITY) {
             revert TSwapPool__WethDepositAmountTooLow(
                 MINIMUM_WETH_LIQUIDITY,
@@ -128,6 +138,8 @@ contract TSwapPool is ERC20 {
         }
         if (totalLiquidityTokenSupply() > 0) {
             uint256 wethReserves = i_wethToken.balanceOf(address(this));
+
+            // @audit-issue: this variable is not used it should be removed
             uint256 poolTokenReserves = i_poolToken.balanceOf(address(this));
             // Our invariant says weth, poolTokens, and liquidity tokens must always have the same ratio after the
             // initial deposit
@@ -176,6 +188,8 @@ contract TSwapPool is ERC20 {
             // We just have them send the tokens in, and we mint liquidity tokens based on the weth
             _addLiquidityMintAndTransfer(
                 wethToDeposit,
+
+                // @follow-up #a1: this can be 0, which can result in a broken pool
                 maximumPoolTokensToDeposit,
                 wethToDeposit
             );
@@ -189,6 +203,8 @@ contract TSwapPool is ERC20 {
     /// @param liquidityTokensToMint The amount of liquidity tokens the user is going to mint
     function _addLiquidityMintAndTransfer(
         uint256 wethToDeposit,
+
+        // @follow-up #a2: this can be 0 on new pools
         uint256 poolTokensToDeposit,
         uint256 liquidityTokensToMint
     ) private {
@@ -196,10 +212,13 @@ contract TSwapPool is ERC20 {
         emit LiquidityAdded(msg.sender, poolTokensToDeposit, wethToDeposit);
 
         // Interactions
+        // @audit-question: what if these fail silently? CEI is not respected here
         i_wethToken.safeTransferFrom(msg.sender, address(this), wethToDeposit);
         i_poolToken.safeTransferFrom(
             msg.sender,
             address(this),
+
+            // @follow-up: #a3: if this is 0, user will send 0 tokens to the pool
             poolTokensToDeposit
         );
     }
@@ -219,6 +238,9 @@ contract TSwapPool is ERC20 {
         revertIfDeadlinePassed(deadline)
         revertIfZero(liquidityTokensToBurn)
         revertIfZero(minWethToWithdraw)
+
+        // @follow-up #a4: now if the pool has 0 poolToken,
+        // we can't withdraw, because of "revertIfZero"
         revertIfZero(minPoolTokensToWithdraw)
     {
         // We do the same math as above
@@ -227,9 +249,14 @@ contract TSwapPool is ERC20 {
         uint256 poolTokensToWithdraw = (liquidityTokensToBurn *
             i_poolToken.balanceOf(address(this))) / totalLiquidityTokenSupply();
 
+        // @audit-question: if the user withdraws a portion of the pool that is lower than weth or poolToken balance,
+        // then the amount to withdraw will be zeron which is lower than minToWithdraw.
+        // This will lead to revert and permanently locked funds
         if (wethToWithdraw < minWethToWithdraw) {
             revert TSwapPool__OutputTooLow(wethToWithdraw, minWethToWithdraw);
         }
+
+        // @follow-up #a5: funds are lost here
         if (poolTokensToWithdraw < minPoolTokensToWithdraw) {
             revert TSwapPool__OutputTooLow(
                 poolTokensToWithdraw,
@@ -240,6 +267,8 @@ contract TSwapPool is ERC20 {
         _burn(msg.sender, liquidityTokensToBurn);
         emit LiquidityRemoved(msg.sender, wethToWithdraw, poolTokensToWithdraw);
 
+        // @audit-question: what if these transfers fail silently?
+        // this doesn't follow CEI pattern
         i_wethToken.safeTransfer(msg.sender, wethToWithdraw);
         i_poolToken.safeTransfer(msg.sender, poolTokensToWithdraw);
     }
@@ -248,6 +277,7 @@ contract TSwapPool is ERC20 {
                               GET PRICING
     //////////////////////////////////////////////////////////////*/
 
+    // @audit-ok: maths are ok
     function getOutputAmountBasedOnInput(
         uint256 inputAmount,
         uint256 inputReserves,
@@ -279,6 +309,7 @@ contract TSwapPool is ERC20 {
         return numerator / denominator;
     }
 
+    // @audit-question: maths are wrong here, it should be 1000 not 10000
     function getInputAmountBasedOnOutput(
         uint256 outputAmount,
         uint256 inputReserves,
@@ -334,6 +365,8 @@ contract TSwapPool is ERC20 {
      * @param outputToken ERC20 token to send to caller
      * @param outputAmount The exact amount of tokens to send to caller
      */
+
+    // @audit-question: maybe we should add a maxInput parameter for user safety against slippage?
     function swapExactOutput(
         IERC20 inputToken,
         IERC20 outputToken,
@@ -399,6 +432,8 @@ contract TSwapPool is ERC20 {
         swap_count++;
         if (swap_count >= SWAP_COUNT_MAX) {
             swap_count = 0;
+
+            // @audit-question: what is this? it will break the protocol sanity, no?
             outputToken.safeTransfer(msg.sender, 1_000_000_000_000_000_000);
         }
         emit Swap(
@@ -409,6 +444,7 @@ contract TSwapPool is ERC20 {
             outputAmount
         );
 
+        // @audit-question: what if this fails silently?
         inputToken.safeTransferFrom(msg.sender, address(this), inputAmount);
         outputToken.safeTransfer(msg.sender, outputAmount);
     }
@@ -423,6 +459,9 @@ contract TSwapPool is ERC20 {
     /*//////////////////////////////////////////////////////////////
                    EXTERNAL AND PUBLIC VIEW AND PURE
     //////////////////////////////////////////////////////////////*/
+
+    // @audit-ok: all the following functions have been reviewed
+    // and they successfully do what they are supposed to do
     function getPoolTokensToDepositBasedOnWeth(
         uint256 wethToDeposit
     ) public view returns (uint256) {
@@ -451,6 +490,8 @@ contract TSwapPool is ERC20 {
     function getPriceOfOneWethInPoolTokens() external view returns (uint256) {
         return
             getOutputAmountBasedOnInput(
+
+                // @audit-question: what if the weth doesn't have 18 decimals?
                 1e18,
                 i_wethToken.balanceOf(address(this)),
                 i_poolToken.balanceOf(address(this))
@@ -460,6 +501,8 @@ contract TSwapPool is ERC20 {
     function getPriceOfOnePoolTokenInWeth() external view returns (uint256) {
         return
             getOutputAmountBasedOnInput(
+
+                // @audit-question: what if the pool token doesn't have 18 decimals?
                 1e18,
                 i_poolToken.balanceOf(address(this)),
                 i_wethToken.balanceOf(address(this))
