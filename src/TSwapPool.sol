@@ -42,6 +42,8 @@ contract TSwapPool is ERC20 {
     //////////////////////////////////////////////////////////////*/
     IERC20 private immutable i_wethToken;
     IERC20 private immutable i_poolToken;
+
+    // @audit-issue: should use 1e18 notation for big numbers
     uint256 private constant MINIMUM_WETH_LIQUIDITY = 1_000_000_000;
     uint256 private swap_count = 0;
     uint256 private constant SWAP_COUNT_MAX = 10;
@@ -303,6 +305,8 @@ contract TSwapPool is ERC20 {
         // totalPoolTokensOfPool) + (wethToDeposit * poolTokensToDeposit) = k
         // (totalWethOfPool * totalPoolTokensOfPool) + (wethToDeposit * totalPoolTokensOfPool) = k - (totalWethOfPool *
         // poolTokensToDeposit) - (wethToDeposit * poolTokensToDeposit)
+        
+        // @audit-issue: should use constant variable for 997
         uint256 inputAmountMinusFee = inputAmount * 997;
         uint256 numerator = inputAmountMinusFee * outputReserves;
         uint256 denominator = (inputReserves * 1000) + inputAmountMinusFee;
@@ -323,9 +327,11 @@ contract TSwapPool is ERC20 {
     {
         return
             ((inputReserves * outputAmount) * 10000) /
+            // @audit-issue: should use constant variable for 997
             ((outputReserves - outputAmount) * 997);
     }
 
+    // @audit-issue: this can be external
     function swapExactInput(
         IERC20 inputToken,
         uint256 inputAmount,
@@ -395,6 +401,8 @@ contract TSwapPool is ERC20 {
      * @param poolTokenAmount amount of pool tokens to sell
      * @return wethAmount amount of WETH received by caller
      */
+    // @audit-issue: variable name is very wrong!!! poolTokenAmount should be outputWethAmount
+    // the function name is also very bad, this is a bad wrapper function, change it or delete it
     function sellPoolTokens(
         uint256 poolTokenAmount
     ) external returns (uint256 wethAmount) {
@@ -434,6 +442,7 @@ contract TSwapPool is ERC20 {
             swap_count = 0;
 
             // @audit-question: what is this? it will break the protocol sanity, no?
+            // @audit-issue: should use 1e18 notation for big numbers
             outputToken.safeTransfer(msg.sender, 1_000_000_000_000_000_000);
         }
         emit Swap(
