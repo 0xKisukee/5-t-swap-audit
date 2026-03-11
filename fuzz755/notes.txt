@@ -1,0 +1,6 @@
+INVARIANTS:
+
+- amm constant producut
+x * y = k
+
+- all liquidity tokens names must start with "T-Swap " and symbol with "ts"
