@@ -43,7 +43,7 @@ contract TSwapPool is ERC20 {
     IERC20 private immutable i_wethToken;
     IERC20 private immutable i_poolToken;
 
-    // @audit-issue: should use 1e18 notation for big numbers
+    // @audit-issue informational: should use 1e18 notation for big numbers
     uint256 private constant MINIMUM_WETH_LIQUIDITY = 1_000_000_000;
     uint256 private swap_count = 0;
     uint256 private constant SWAP_COUNT_MAX = 10;
@@ -116,10 +116,12 @@ contract TSwapPool is ERC20 {
         uint256 wethToDeposit,
         uint256 minimumLiquidityTokensToMint,
 
-        //@audit-question #a: what if this is 0?
-        // if there is liquidity, it will revert
-        // but if there is no liq yet, it will deposit with 0 poolTokens
+        // @audit-issue high: if this is value is set to 0, then the deposited amount will never be recoverable.
+        // if someone deposits to this pool, funds will be permanently lost
+        // this is a dos because someone can call this with 0 on tokens so we can't create these pools (already exist)
         uint256 maximumPoolTokensToDeposit,
+
+        // @audit-issue medium: deadline parameter is not used
         uint64 deadline
     )
         external
@@ -130,8 +132,8 @@ contract TSwapPool is ERC20 {
         returns (uint256 liquidityTokensToMint)
     {
 
-        // @audit-question: if the token price is very high compared to weth, it can be a DoS
-        // because the token amount corresponding to MINIMUM_WETH_LIQUIDITY weth, will be too high
+        // @audit-issue medium: if the token price is very high compared to weth,
+        // users will not be able to deposit low amounts because of minimum weth liquidity
         if (wethToDeposit < MINIMUM_WETH_LIQUIDITY) {
             revert TSwapPool__WethDepositAmountTooLow(
                 MINIMUM_WETH_LIQUIDITY,
@@ -141,7 +143,7 @@ contract TSwapPool is ERC20 {
         if (totalLiquidityTokenSupply() > 0) {
             uint256 wethReserves = i_wethToken.balanceOf(address(this));
 
-            // @audit-issue: this variable is not used it should be removed
+            // @audit-issue informational: this variable is not used it should be removed
             uint256 poolTokenReserves = i_poolToken.balanceOf(address(this));
             // Our invariant says weth, poolTokens, and liquidity tokens must always have the same ratio after the
             // initial deposit
@@ -214,7 +216,8 @@ contract TSwapPool is ERC20 {
         emit LiquidityAdded(msg.sender, poolTokensToDeposit, wethToDeposit);
 
         // Interactions
-        // @audit-question: what if these fail silently? CEI is not respected here
+        // @audit-issue: what if these fail silently? CEI is not respected here
+        // you should check that pool balance successfully increased before sending liquidity tokens
         i_wethToken.safeTransferFrom(msg.sender, address(this), wethToDeposit);
         i_poolToken.safeTransferFrom(
             msg.sender,
@@ -251,9 +254,9 @@ contract TSwapPool is ERC20 {
         uint256 poolTokensToWithdraw = (liquidityTokensToBurn *
             i_poolToken.balanceOf(address(this))) / totalLiquidityTokenSupply();
 
-        // @audit-question: if the user withdraws a portion of the pool that is lower than weth or poolToken balance,
-        // then the amount to withdraw will be zeron which is lower than minToWithdraw.
-        // This will lead to revert and permanently locked funds
+        // @audit-issue informational: users can't withdraw a too low portion of liquidity tokens
+        // because the corresponding amount of weth or tokens may be zero
+        // and the withdraw will revert.
         if (wethToWithdraw < minWethToWithdraw) {
             revert TSwapPool__OutputTooLow(wethToWithdraw, minWethToWithdraw);
         }
@@ -269,8 +272,8 @@ contract TSwapPool is ERC20 {
         _burn(msg.sender, liquidityTokensToBurn);
         emit LiquidityRemoved(msg.sender, wethToWithdraw, poolTokensToWithdraw);
 
-        // @audit-question: what if these transfers fail silently?
-        // this doesn't follow CEI pattern
+        // @audit-issue high: what if these transfers fail silently?
+        // we should check that the pool balance is lower than before after the transfer
         i_wethToken.safeTransfer(msg.sender, wethToWithdraw);
         i_poolToken.safeTransfer(msg.sender, poolTokensToWithdraw);
     }
@@ -279,7 +282,6 @@ contract TSwapPool is ERC20 {
                               GET PRICING
     //////////////////////////////////////////////////////////////*/
 
-    // @audit-ok: maths are ok
     function getOutputAmountBasedOnInput(
         uint256 inputAmount,
         uint256 inputReserves,
@@ -306,14 +308,14 @@ contract TSwapPool is ERC20 {
         // (totalWethOfPool * totalPoolTokensOfPool) + (wethToDeposit * totalPoolTokensOfPool) = k - (totalWethOfPool *
         // poolTokensToDeposit) - (wethToDeposit * poolTokensToDeposit)
         
-        // @audit-issue: should use constant variable for 997
+        // @audit-issue informational: should use constant variable for 997
         uint256 inputAmountMinusFee = inputAmount * 997;
         uint256 numerator = inputAmountMinusFee * outputReserves;
         uint256 denominator = (inputReserves * 1000) + inputAmountMinusFee;
         return numerator / denominator;
     }
 
-    // @audit-question: maths are wrong here, it should be 1000 not 10000
+    // @audit-issue high: maths are wrong here, it should be 1000 not 10000
     function getInputAmountBasedOnOutput(
         uint256 outputAmount,
         uint256 inputReserves,
@@ -327,11 +329,11 @@ contract TSwapPool is ERC20 {
     {
         return
             ((inputReserves * outputAmount) * 10000) /
-            // @audit-issue: should use constant variable for 997
+            // @audit-issue low: should use constant variable for 997
             ((outputReserves - outputAmount) * 997);
     }
 
-    // @audit-issue: this can be external
+    // @audit-issue gas: this can be external
     function swapExactInput(
         IERC20 inputToken,
         uint256 inputAmount,
@@ -342,6 +344,8 @@ contract TSwapPool is ERC20 {
         public
         revertIfZero(inputAmount)
         revertIfDeadlinePassed(deadline)
+
+        // @audit-issue gas: this return variable is not used, maybe it should be "outputAmount"
         returns (uint256 output)
     {
         uint256 inputReserves = inputToken.balanceOf(address(this));
@@ -372,7 +376,7 @@ contract TSwapPool is ERC20 {
      * @param outputAmount The exact amount of tokens to send to caller
      */
 
-    // @audit-question: maybe we should add a maxInput parameter for user safety against slippage?
+    // @audit-issue medium: add a maxInput parameter for user safety against slippage
     function swapExactOutput(
         IERC20 inputToken,
         IERC20 outputToken,
@@ -401,7 +405,7 @@ contract TSwapPool is ERC20 {
      * @param poolTokenAmount amount of pool tokens to sell
      * @return wethAmount amount of WETH received by caller
      */
-    // @audit-issue: variable name is very wrong!!! poolTokenAmount should be outputWethAmount
+    // @audit-issue low: variable name is very wrong!!! poolTokenAmount should be outputWethAmount
     // the function name is also very bad, this is a bad wrapper function, change it or delete it
     function sellPoolTokens(
         uint256 poolTokenAmount
@@ -441,8 +445,7 @@ contract TSwapPool is ERC20 {
         if (swap_count >= SWAP_COUNT_MAX) {
             swap_count = 0;
 
-            // @audit-question: what is this? it will break the protocol sanity, no?
-            // @audit-issue: should use 1e18 notation for big numbers
+            // @audit-issue: this is breaking the protocol invariant
             outputToken.safeTransfer(msg.sender, 1_000_000_000_000_000_000);
         }
         emit Swap(
@@ -453,7 +456,8 @@ contract TSwapPool is ERC20 {
             outputAmount
         );
 
-        // @audit-question: what if this fails silently?
+        // @audit-issue: what if this fails silently?
+        // check that the balances have been updated
         inputToken.safeTransferFrom(msg.sender, address(this), inputAmount);
         outputToken.safeTransfer(msg.sender, outputAmount);
     }
@@ -469,8 +473,6 @@ contract TSwapPool is ERC20 {
                    EXTERNAL AND PUBLIC VIEW AND PURE
     //////////////////////////////////////////////////////////////*/
 
-    // @audit-ok: all the following functions have been reviewed
-    // and they successfully do what they are supposed to do
     function getPoolTokensToDepositBasedOnWeth(
         uint256 wethToDeposit
     ) public view returns (uint256) {
@@ -500,7 +502,7 @@ contract TSwapPool is ERC20 {
         return
             getOutputAmountBasedOnInput(
 
-                // @audit-question: what if the weth doesn't have 18 decimals?
+                // @audit-issue low: if weth doesn't have 18 decimals, it will return a wrong value
                 1e18,
                 i_wethToken.balanceOf(address(this)),
                 i_poolToken.balanceOf(address(this))
@@ -511,7 +513,7 @@ contract TSwapPool is ERC20 {
         return
             getOutputAmountBasedOnInput(
 
-                // @audit-question: what if the pool token doesn't have 18 decimals?
+                // @audit-issue low: if token doesn't have 18 decimals, it will return a wrong value
                 1e18,
                 i_poolToken.balanceOf(address(this)),
                 i_wethToken.balanceOf(address(this))
