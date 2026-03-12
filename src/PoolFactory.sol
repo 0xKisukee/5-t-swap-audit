@@ -51,7 +51,7 @@ contract PoolFactory {
             revert PoolFactory__PoolAlreadyExists(tokenAddress);
         }
 
-        //@audit-question: what happens if name() does not return a string?
+        //@audit-issue: name() can act weirdly for wierd erc20s
         string memory liquidityTokenName = string.concat("T-Swap ", IERC20(tokenAddress).name());
         string memory liquidityTokenSymbol = string.concat("ts", IERC20(tokenAddress).name());
         TSwapPool tPool = new TSwapPool(tokenAddress, i_wethToken, liquidityTokenName, liquidityTokenSymbol);
