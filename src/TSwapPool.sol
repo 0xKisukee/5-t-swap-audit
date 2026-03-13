@@ -116,7 +116,7 @@ contract TSwapPool is ERC20 {
         uint256 wethToDeposit,
         uint256 minimumLiquidityTokensToMint,
 
-        // @audit-issue written: if this is value is set to 0, then the deposited amount will never be recoverable.
+        //@audit-issue written: if this is value is set to 0, then the deposited amount will never be recoverable.
         // if someone deposits to this pool, funds will be permanently lost
         // this is a dos because someone can call this with 0 on tokens so we can't create these pools (already exist)
         uint256 maximumPoolTokensToDeposit,
