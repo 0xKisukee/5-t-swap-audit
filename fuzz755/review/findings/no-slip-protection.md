@@ -1,68 +1,37 @@
-// SPDX-License-Identifier: MIT
-pragma solidity 0.8.20;
+---
+severity: [H-3]
+status: Pending
+affected-contracts: TSwapPool.sol
+---
+**Title:**
 
-import { Test, console2 } from "forge-std/Test.sol";
-import { PoolFactory } from "../../src/PoolFactory.sol";
-import { TSwapPool } from "../src/TSwapPool.sol";
-import { ERC20Mock } from "@openzeppelin/contracts/mocks/token/ERC20Mock.sol";
+No slippage protection in the `swapExactOutput` function, making it vulnerable to sandwich attacks
 
-contract PoolFactoryTest is Test {
-    PoolFactory factory;
-    TSwapPool pool;
-    ERC20Mock weth;
-    ERC20Mock poolToken;
+**Description:**
 
-    address liquidityProvider = makeAddr("liquidityProvider");
-    address user = makeAddr("user");
+Slippage protection is important to protect users from trading at unpredictable prices. This is usually a medium issue, but in our case, combined with the [H-2] issue it is a critical vulnerability. The price formula is wrong when calculating the input amount with `getInputAmountBasedOnOutput`. The input amount will be way higher than it should be. Without slippage protection, the transaction will pass if the user has enough tokens and approval.
+This also exposes users to sandwich attacks.
 
-    uint256 startingWeth = 100 * 1e18;
-    uint256 startingPoolToken = 10_000 * 1e18;
+**Impact:**
 
-    function setUp() public {
-        weth = new ERC20Mock();
-        poolToken = new ERC20Mock();
+Users will pay way more than expected for a swap.
 
-        factory = new PoolFactory(address(weth));
-        pool = TSwapPool(factory.createPool(address(poolToken)));
-    }
+**Proof Of Concept:**
 
-    // Upgrade tests coverage 
-    function test_wethSetup() public {
-        assertEq(address(weth), factory.getWethToken());
-    }
+*Actors:*
+- Attacker: A liquidity provider performing a sandwich attack on User
+- User: Normal user
 
-    // Audit tests
-    function test_depositZeroPoolTokensDos() public {
-        vm.startPrank(liquidityProvider);
+*Description:*
+1) The attacker owns the whole liquidity pool assets
+2) The Attacker waits for a user to swap with the `swapExactOutput` function.
+3) The Attacker buys pool tokens just before the User
+4) The User buys pool tokens and pays a lot of WETH
+5) The Attacker sells its pool tokens with sandwich attack profit + wrong fee formula profits
 
-        uint256 minWethDeposit = pool.getMinimumWethDepositAmount();
+*Proof of Code:*
 
-        weth.mint(liquidityProvider, minWethDeposit);
-        weth.approve(address(pool), minWethDeposit);
-
-        // Depositing with 0 poolTokens
-        pool.deposit(
-            minWethDeposit,
-            0,
-            0,
-            uint64(block.timestamp + 30)
-        );
-
-        // Now we can't withdraw our weth
-        uint256 liqToWithdraw = pool.balanceOf(liquidityProvider);
-        vm.expectRevert();
-        pool.withdraw(
-            liqToWithdraw,
-            1,
-            1,
-            uint64(block.timestamp + 30)
-        );
-
-        vm.stopPrank();
-
-        assertGt(weth.balanceOf(address(pool)), 0);
-    }
-
+```javascript
     function test_sandwichAttack() public {
         // ADD LIQUIDITY
 
@@ -158,4 +127,42 @@ contract PoolFactoryTest is Test {
 
         assertGt(expectedOutputAmount, actualOutputAmount);
     }
-}
+```
+
+**Recommended Mitigation:**
+
+Add a `maxInputAmount` parameter to the `swapExactOutput` function:
+
+```diff
++    error TSwapPool__InputTooHigh(uint256 actual, uint256 max);
+
+    ...
+
+    function swapExactOutput(
+        IERC20 inputToken,
++        uint256 maxInputAmount
+        IERC20 outputToken,
+        uint256 outputAmount,
+        uint64 deadline
+    )
+        public
+        revertIfZero(outputAmount)
+        revertIfDeadlinePassed(deadline)
+        returns (uint256 inputAmount)
+    {
+        uint256 inputReserves = inputToken.balanceOf(address(this));
+        uint256 outputReserves = outputToken.balanceOf(address(this));
+
+        inputAmount = getInputAmountBasedOnOutput(
+            outputAmount,
+            inputReserves,
+            outputReserves
+        );
+
++        if (inputAmount > maxInputAmount) {
++            revert TSwapPool__InputTooHigh(inputAmount, maxInputAmount);
++        }
+
+        _swap(inputToken, inputAmount, outputToken, outputAmount);
+    }
+```
