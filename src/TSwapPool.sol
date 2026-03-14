@@ -43,7 +43,7 @@ contract TSwapPool is ERC20 {
     IERC20 private immutable i_wethToken;
     IERC20 private immutable i_poolToken;
 
-    // @audit-issue written: should use 1e18 notation for big numbers
+    //@audit-issue written: should use 1e18 notation for big numbers
     uint256 private constant MINIMUM_WETH_LIQUIDITY = 1_000_000_000;
     uint256 private swap_count = 0;
     uint256 private constant SWAP_COUNT_MAX = 10;
